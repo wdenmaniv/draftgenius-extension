@@ -29,7 +29,7 @@ import {
   recommendBestAvailable,
   recommendTopAvailable,
   computeActiveRunPosition,
-  computeTierRemainingCounts,
+  computeLastInTierIds,
   computeTeamRanking,
   computeStarterOnlyRanking,
   pickHeadlineRecommendation,
@@ -735,17 +735,41 @@ function ensurePricing(state) {
   // which was itself found to collapse 15-20 players into one tier
   // whenever a position had one huge gap near the top).
   const byPosition = new Map();
+  const allByPosition = new Map();
   for (const p of playersWithPAR) {
+    if (!allByPosition.has(p.position)) allByPosition.set(p.position, []);
+    allByPosition.get(p.position).push(p);
     if (p.par <= 0) continue;
     if (!byPosition.has(p.position)) byPosition.set(p.position, []);
     byPosition.get(p.position).push(p);
   }
   state.tierById = new Map();
-  for (const pool of byPosition.values()) {
-    for (const t of computeTiers(pool)) {
+  for (const [position, allPlayers] of allByPosition.entries()) {
+    let maxTier = 0;
+    for (const t of computeTiers(byPosition.get(position) || [])) {
       state.tierById.set(t.id, t.tier);
+      if (t.tier > maxTier) maxTier = t.tier;
+    }
+    // Real feedback: a par<=0 player (deliberately excluded above, to
+    // protect the tier-gap math from exactly the bug this comment already
+    // describes) rendered with NO tier number at all — "RB" instead of
+    // "RB9" — which read as a rendering glitch ("only shows up some of the
+    // time") rather than the intentional "replacement level or below"
+    // signal it actually was. Bucketing them into one catch-all tier right
+    // after the last real one — computed here, never fed back into
+    // computeTiers itself — gives every row a consistent number without
+    // perturbing the real tiering these players were excluded to protect.
+    for (const p of allPlayers) {
+      if (!state.tierById.has(p.id)) state.tierById.set(p.id, maxTier + 1);
     }
   }
+  // Tier-cliff underline: the lowest-ranked (by PAR) player within each
+  // (position, tier) bucket — static, computed once here from the full
+  // pool alongside the tier numbers themselves, and never recomputed as
+  // the draft happens (tiers are a fixed value-based grouping; which
+  // player sits at the bottom of one doesn't change just because someone
+  // else in the room got drafted).
+  state.lastInTierIds = computeLastInTierIds(playersWithPAR, state.tierById);
 }
 
 // Message types where the DOM's "currently up for bid" player is reliably
@@ -846,29 +870,18 @@ function computeRecommendationAndFactors(state, activePlayerWithPAR) {
   // open roster need, bestAvailableList ("Best Available") is pure value
   // with no roster filter at all. No activePlayerWithPAR needed for either.
   if (state.isSnake) {
-    // Tier-cliff underline: how many undrafted players remain in each
-    // (position, tier) bucket right now (live, shrinks as the draft
-    // happens) — see computeTierRemainingCounts' own comment. state.tierById
-    // itself is only set once ensurePricing has run at least once; an empty
-    // Map here just means no player ever qualifies as "last in tier" yet.
-    const tierRemainingCounts = computeTierRemainingCounts(undraftedPlayers, state.tierById || new Map());
-
     // Attaches each row's tier (see ensurePricing's tierById comment),
-    // whether it's the last player left in that tier (tier-cliff underline
-    // — replaces the old "· RB2" text once every tier-mate is gone), and
-    // whether its position is in an active run (fire emoji) — small enough
-    // to be worth surfacing without cluttering a 10-row list.
+    // whether it's the last (lowest-ranked) player before the tier changes
+    // — a static boundary marker, see ensurePricing's lastInTierIds comment
+    // — and whether its position is in an active run (fire emoji) — small
+    // enough to be worth surfacing without cluttering a 10-row list.
     const withTier = (list) =>
-      list.map((p) => {
-        const tier = state.tierById?.get(p.id) ?? null;
-        const remainingInTier = tier !== null ? (tierRemainingCounts.get(`${p.position}|${tier}`) ?? 0) : 0;
-        return {
-          ...p,
-          tier,
-          isLastInTier: tier !== null && remainingInTier <= 1,
-          isRun: hotPosition !== null && p.position === hotPosition,
-        };
-      });
+      list.map((p) => ({
+        ...p,
+        tier: state.tierById?.get(p.id) ?? null,
+        isLastInTier: state.lastInTierIds?.has(p.id) ?? false,
+        isRun: hotPosition !== null && p.position === hotPosition,
+      }));
     // "Draft Rank" tab: every team's cumulative PAR so far, league-wide —
     // resolves ALL soldEvents (not just the user's own, unlike myPicks
     // above) to {teamId, position, par} triples via the same

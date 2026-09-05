@@ -41,8 +41,8 @@
         color: #e6e6e6;
       }
       .view-tab.active {
-        color: #7ee787;
-        border-bottom-color: #7ee787;
+        color: #a5b4fc;
+        border-bottom-color: #818cf8;
       }
       .feedback-btn {
         flex: 0 0 auto;
@@ -159,8 +159,8 @@
         color: #e6e6e6;
       }
       .settings-tab.active {
-        color: #7ee787;
-        border-bottom-color: #7ee787;
+        color: #a5b4fc;
+        border-bottom-color: #818cf8;
       }
       .settings-tab-panel {
         background: #1b1e24;
@@ -290,7 +290,7 @@
         font-weight: 700;
       }
       .nominee-rec.value {
-        color: #7ee787;
+        color: #a5b4fc;
       }
       .nominee-rec.budget {
         color: #e3b341;
@@ -619,6 +619,14 @@
       .run-flag {
         flex-shrink: 0;
         font-size: 11px;
+        line-height: 1;
+        /* Real feedback: rows with the 🔥 flag looked visibly larger than
+           rows without one. The row is `align-items: baseline`, and an
+           emoji glyph's own font metrics (taller ascent/descent than a
+           same-font-size Latin letter) stretch that shared baseline for
+           the WHOLE row, not just this span. align-self overrides the
+           inherited baseline just for this one flex child. */
+        align-self: center;
       }
       .snake-rec-par {
         color: #7ee787;

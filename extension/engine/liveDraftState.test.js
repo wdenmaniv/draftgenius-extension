@@ -336,17 +336,26 @@ test('computeTierInfo does not collapse an entire position into "tier 1 of 1" ov
   assert.equal(benchInfo.isLastInTier, false);
 });
 
-test('computeTierInfo: isLastInTier is true once every other player in the tier is drafted', () => {
+// Per direct request: isLastInTier is a STATIC "lowest-ranked player before
+// the tier changes" boundary — a "the tier's about to run out of good
+// options" cue the user wants visible right away, not a live countdown that
+// only fires once every other tier-mate has actually been drafted (the
+// previous, dynamic behavior — replaced because a tier with several
+// genuine members still on the board never showed the cliff at all, even
+// sitting right at its own visible value-sorted boundary).
+test('computeTierInfo: isLastInTier flags the lowest-ranked player in a tier even when nobody has been drafted yet', () => {
   const rbPool = [
     { id: 'RB1', position: 'RB', par: 300 },
     { id: 'RB2', position: 'RB', par: 290 },
     { id: 'RB3', position: 'RB', par: 100 },
     { id: 'RB4', position: 'RB', par: 90 },
   ];
-  const undrafted = rbPool.filter((p) => p.id !== 'RB3'); // the other tier-2 player is already sold
-  const info = computeTierInfo({ activePlayerWithPAR: rbPool[3], playersWithPAR: rbPool, undraftedPlayers: undrafted });
-  assert.equal(info.remainingInTier, 1);
-  assert.equal(info.isLastInTier, true);
+  const undrafted = rbPool; // nobody drafted yet
+  const lastInTier2 = computeTierInfo({ activePlayerWithPAR: rbPool[3], playersWithPAR: rbPool, undraftedPlayers: undrafted }); // RB4
+  const firstInTier2 = computeTierInfo({ activePlayerWithPAR: rbPool[2], playersWithPAR: rbPool, undraftedPlayers: undrafted }); // RB3
+  assert.equal(lastInTier2.remainingInTier, 2); // both RB3 and RB4 still undrafted — informational only, doesn't drive the flag
+  assert.equal(lastInTier2.isLastInTier, true); // RB4 is the lowest-ranked tier-2 player
+  assert.equal(firstInTier2.isLastInTier, false); // RB3 outranks RB4 within the same tier
 });
 
 test('computeTierInfo returns null when there is no active player', () => {
