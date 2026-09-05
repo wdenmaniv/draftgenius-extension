@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "DraftGenius",
+  "version": "0.0.44",
+  "description": "Watches your live ESPN, Yahoo, or Sleeper fantasy football draft and recommends who to pick or bid on, calibrated against real historical projection accuracy and injury data.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp9Q9jupsjybo+o2i59PiQC2ZJyqH5YxTdThAuqVtbCwJF8eXgSGuCwvGhHBGTkwG9+UDiUiRasNRP2haSxkb/wsHeePt5+kZB9EQfgsHrKHqEw3tNeRUjLDB0lAwsYhoGvhhC8K1UA1vGTKkcraDkKBBOYLhNSsgjHP8Y0GR974gW1Oih7v1mhTaL2HzGeL12/ke8vVVhDQcRiAfhw3Z0639Xnh/dD0bq88+Slmg0oiyupzdLIvlWFnrb2nmrf+Z2Amql67C1f2gOPfX8TMr1CfvGZKuUwpa/7VwtysbMcib5Ow4+QQ3TA66p4gQhzjmL+yFixTo2PuuS7HF4/qK1QIDAQAB",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["sidePanel", "storage"],
+  "host_permissions": [
+    "https://fantasy.espn.com/*",
+    "https://football.fantasysports.yahoo.com/*",
+    "https://sleeper.com/*",
+    "https://api.sleeper.app/*",
+    "https://qeyxikwruuuhandvkvan.supabase.co/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel.html"
+  },
+  "externally_connectable": {
+    "matches": ["https://draftgenius.vercel.app/*", "http://localhost/*"]
+  },
+  "action": {
+    "default_title": "Open DraftGenius",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://fantasy.espn.com/football/draft*",
+        "https://football.fantasysports.yahoo.com/draftclient/*"
+      ],
+      "js": ["src/capture-main.js"],
+      "world": "MAIN",
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://fantasy.espn.com/football/draft*",
+        "https://football.fantasysports.yahoo.com/draftclient/*",
+        "https://sleeper.com/draft/*"
+      ],
+      "js": ["src/dom/espn.js", "src/dom/yahoo.js", "src/dom/sleeper.js", "src/relay-isolated.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# build artifacts (regenerate via `npm run package`)
+dist/
+extension.zip
+
+# macOS
+.DS_Store

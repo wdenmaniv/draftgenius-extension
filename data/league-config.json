@@ -1,0 +1,32 @@
+{
+  "_comment": "NOT the primary way to set league scoring — that's the side panel's live 'Scoring settings' form (chrome.storage.local, picked up by background.js's chrome.storage.onChanged, recomputed live via recomputeWithScoringRules in liveDraftState.js). League settings differ per user's real league, so a JSON file only a developer could hand-edit isn't the right mechanism for that — this file exists only as the build-time SEED for DEFAULT_SCORING_RULES (leagueScoring.js), i.e. what a fresh install's side-panel form shows before any user customization. Edit this only if you want to change what ships as the out-of-the-box default for every user, then rerun `node scripts/build-projections.js`.",
+  "scoringRules": {
+    "passYardsPerPoint": 25,
+    "passTd": 4,
+    "interception": -2,
+    "rushYardsPerPoint": 20,
+    "rushTd": 6,
+    "receptionPoints": 0.5,
+    "recYardsPerPoint": 20,
+    "recTd": 6,
+    "fumbleLost": -2,
+    "fieldGoal": 3,
+    "extraPoint": 1,
+    "defSack": 1,
+    "defInt": 2,
+    "defFumbleRecovery": 2,
+    "defForcedFumble": 0,
+    "defTd": 6,
+    "defSafety": 2,
+    "pointsAllowedTiers": [
+      { "max": 0, "points": 10 },
+      { "max": 6, "points": 7 },
+      { "max": 13, "points": 4 },
+      { "max": 20, "points": 1 },
+      { "max": 27, "points": 0 },
+      { "max": 34, "points": -1 },
+      { "max": null, "points": -4 }
+    ],
+    "gamesPerSeason": 17
+  }
+}

@@ -1,0 +1,859 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DraftGenius</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #14161a;
+        color: #e6e6e6;
+        font-size: 13px;
+      }
+      /* Top-level Draft/Settings switcher — replaces the old static
+         "DraftGenius" header text, which was redundant once Chrome's own
+         side panel chrome already shows the extension name/icon above it. */
+      .view-tabs {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        background: #1b1e24;
+        border-bottom: 1px solid #2a2e37;
+      }
+      .view-tab {
+        flex: 1;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        color: #8b949e;
+        font-size: 12.5px;
+        font-weight: 600;
+        padding: 10px 4px;
+        cursor: pointer;
+        border-radius: 0;
+      }
+      .view-tab:hover {
+        color: #e6e6e6;
+      }
+      .view-tab.active {
+        color: #7ee787;
+        border-bottom-color: #7ee787;
+      }
+      .feedback-btn {
+        flex: 0 0 auto;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        border-radius: 0;
+        padding: 10px 12px;
+        font-size: 14px;
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .feedback-btn:hover {
+        opacity: 1;
+      }
+      button {
+        background: #2a2e37;
+        color: #e6e6e6;
+        border: 1px solid #3a3f4b;
+        border-radius: 6px;
+        padding: 4px 10px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #343a45;
+      }
+      /* Platform badge (e.g. "SLEEPER") at the top of each nominee card —
+         sized up from the original 10px to read as a clear section header,
+         a distinct visual tier above the 11-12.5px row/meta text below it. */
+      .badge {
+        border-radius: 5px;
+        padding: 3px 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        font-size: 13px;
+      }
+      .badge.espn {
+        background: #3d1f1f;
+        color: #ff6b6b;
+      }
+      .badge.yahoo {
+        background: #3a1f4d;
+        color: #b98bff;
+      }
+      .badge.sleeper {
+        background: #0d3330;
+        color: #00ceb8;
+      }
+      .badge.unknown {
+        background: #333;
+        color: #aaa;
+      }
+      #budget-prompt {
+        display: none;
+        gap: 8px;
+        align-items: center;
+        padding: 10px 12px;
+        background: #3d2f14;
+        border-bottom: 1px solid #5a4620;
+        font-size: 12px;
+      }
+      #budget-prompt input {
+        width: 70px;
+        background: #1b1e24;
+        color: #e6e6e6;
+        border: 1px solid #3a3f4b;
+        border-radius: 6px;
+        padding: 3px 6px;
+        font-size: 12px;
+      }
+      /* Sleeper settings-conflict banner — same amber "needs your input"
+         palette as #budget-prompt above, for the same reason: this draft's
+         real detected settings differ from what's saved for the matched
+         team, and drafting off stale numbers silently would be worse than
+         a visible prompt. */
+      .settings-conflict-banner {
+        margin-top: 2px;
+        padding: 8px 10px;
+        background: #3d2f14;
+        border: 1px solid #5a4620;
+        border-radius: 6px;
+      }
+      .settings-conflict-banner p {
+        margin: 0 0 6px;
+        font-size: 11.5px;
+        color: #e3b341;
+      }
+      /* Account/Roster/Scoring — was three independently-expandable
+         <details> accordions; converted to tabs (only one panel shown at a
+         time) at the user's request, same interaction pattern as the
+         Best Available/Best Fit/Draft Rank tabs in the draft view. */
+      .settings-tabs {
+        display: flex;
+        gap: 2px;
+        padding: 0 8px;
+        background: #1b1e24;
+        border-bottom: 1px solid #2a2e37;
+      }
+      .settings-tab {
+        flex: 1;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        border-radius: 0;
+        color: #8b949e;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 9px 4px;
+        cursor: pointer;
+      }
+      .settings-tab:hover {
+        color: #e6e6e6;
+      }
+      .settings-tab.active {
+        color: #7ee787;
+        border-bottom-color: #7ee787;
+      }
+      .settings-tab-panel {
+        background: #1b1e24;
+        font-size: 12px;
+        border-bottom: 1px solid #2a2e37;
+      }
+      .roster-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
+        padding: 0 12px 10px;
+      }
+      .roster-field {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .roster-field label {
+        opacity: 0.65;
+        font-size: 10.5px;
+      }
+      .roster-field input {
+        width: 100%;
+        box-sizing: border-box;
+        background: #14161a;
+        color: #e6e6e6;
+        border: 1px solid #3a3f4b;
+        border-radius: 6px;
+        padding: 3px 6px;
+        font-size: 12px;
+      }
+      .roster-actions {
+        padding: 0 12px 10px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      #roster-saved,
+      #scoring-saved {
+        opacity: 0.6;
+        font-size: 11px;
+        display: none;
+      }
+
+      /* Nominee card — the primary view (replaces "read a scrolling log" with
+         "one persistent card for the current player, updated in place"). */
+      #nominee-cards {
+        padding: 10px 12px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .nominee-card {
+        border: 1px solid #2a2e37;
+        border-radius: 10px;
+        background: #1b1e24;
+        overflow: hidden;
+      }
+      .nominee-top {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 12px 0;
+      }
+      .nominee-top .team-on-clock {
+        font-size: 11px;
+        opacity: 0.7;
+      }
+      .nominee-body {
+        padding: 8px 12px 12px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      /* Reserves the full populated-card height (name/meta/proj + numbers +
+         bid-range bar + "why this number" toggle) so the "Awaiting
+         nomination" idle state between sales takes up the same space —
+         real feedback: without this, the card visibly collapsed then
+         re-expanded on every single sale, shoving the tabs/results below it
+         up and back down each time. */
+      .auction-player-card {
+        min-height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .auction-player-card-empty {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .nominee-player-name {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+      .nominee-player-meta {
+        font-size: 12px;
+        opacity: 0.7;
+        margin-top: 2px;
+      }
+      .nominee-proj {
+        font-size: 11.5px;
+        opacity: 0.75;
+        margin-top: 4px;
+      }
+      .nominee-proj-theirs {
+        opacity: 0.6;
+      }
+      .nominee-numbers {
+        text-align: right;
+        flex-shrink: 0;
+      }
+      .nominee-price {
+        font-size: 12px;
+        opacity: 0.7;
+      }
+      .nominee-price strong {
+        font-size: 15px;
+        opacity: 1;
+        color: #e6e6e6;
+      }
+      .nominee-rec {
+        margin-top: 4px;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .nominee-rec.value {
+        color: #7ee787;
+      }
+      .nominee-rec.budget {
+        color: #e3b341;
+      }
+      .nominee-rec.no-open-slot {
+        color: #8b949e;
+        font-size: 14px;
+      }
+      .nominee-rec-label {
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        opacity: 0.6;
+        font-weight: 600;
+      }
+      /* Bid/Hold/Pass verdict under the recommended-max number — per direct
+         request, the max is already discounted off fair value (see
+         applyValueMargin), and the verdict compares the live price
+         against it so the drafter doesn't have to do that math themselves.
+         The $1-to-max range itself is now the visual bar below
+         (.bid-range), not a text line here. */
+      .verdict-badge {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 2px 9px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      .verdict-badge.verdict-bid {
+        background: rgba(126, 231, 135, 0.15);
+        color: #7ee787;
+      }
+      .verdict-badge.verdict-hold {
+        background: rgba(227, 179, 65, 0.15);
+        color: #e3b341;
+      }
+      .verdict-badge.verdict-pass {
+        background: rgba(255, 107, 107, 0.15);
+        color: #ff6b6b;
+      }
+      /* Small reminder next to "Bench value" — a full starting lineup, not
+         a reason to hide the player's value entirely (real feedback). */
+      .nominee-rec-fairvalue {
+        font-size: 10.5px;
+        opacity: 0.55;
+        margin-top: 1px;
+      }
+      /* Live bid-range gauge — per direct request, where the current price
+         sits between $1 and the recommended max, tracking as bidding
+         rises. Full width under .nominee-body (doesn't fit in that row's
+         narrow right-aligned numbers column) — re-rendered on every bid
+         update same as everything else in this card, nothing new to wire
+         up for "live" beyond that. */
+      .bid-range {
+        padding: 0 12px 10px;
+      }
+      .bid-range-track {
+        height: 6px;
+        border-radius: 999px;
+        background: #2a2e37;
+        overflow: hidden;
+      }
+      .bid-range-fill {
+        height: 100%;
+        border-radius: 999px;
+        background: #7ee787;
+        transition: width 0.2s ease;
+      }
+      .bid-range-fill-hold {
+        background: #e3b341;
+      }
+      .bid-range-fill-pass {
+        background: #ff6b6b;
+      }
+      .bid-range-labels {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3px;
+        font-size: 10px;
+        opacity: 0.55;
+        font-variant-numeric: tabular-nums;
+      }
+      /* Injury-risk flag — small inline SVG cross next to a player's name
+         wherever one is rendered (ranked-list rows, the headline pick/alts,
+         the auction nominee) whenever injuryDiscount is currently applied. */
+      .injury-flag {
+        margin-left: 3px;
+        vertical-align: -1px;
+      }
+      /* Headline "who do I pick" section — per direct request, sits between
+         the platform badge and the tabbed ranked list below it, built as
+         its own distinct card (background/border/radius, real padding on
+         every side) rather than text crammed against its neighbors — real
+         feedback on the first version: it read as "crowded and messy"
+         sitting flush against the badge above and the tabs below. The
+         indigo tint ties it to the same purple accent used on the active
+         tab underline elsewhere in this panel, so it reads as a
+         deliberately "built" component, not a stray block of text. */
+      .snake-headline {
+        margin: 10px 12px;
+        padding: 12px 14px;
+        background: rgba(129, 140, 248, 0.05);
+        border: 1px solid rgba(129, 140, 248, 0.18);
+        border-radius: 10px;
+      }
+      .snake-headline-label {
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #a5b4fc;
+        font-weight: 700;
+      }
+      .snake-headline-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 5px;
+      }
+      .snake-headline-name {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+      .snake-headline-meta {
+        margin-top: 2px;
+        font-size: 12px;
+        opacity: 0.65;
+      }
+      .snake-headline-par {
+        flex-shrink: 0;
+        margin-top: 1px;
+        color: #7ee787;
+        font-variant-numeric: tabular-nums;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .snake-headline-divider {
+        height: 1px;
+        margin: 11px 0 10px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+      .snake-headline-alts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .snake-headline-alt {
+        padding: 7px 8px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 7px;
+        min-width: 0;
+      }
+      .snake-headline-alt-label {
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        font-weight: 700;
+        color: #8b949e;
+      }
+      .snake-headline-alt-sublabel {
+        text-transform: none;
+        font-weight: 500;
+        opacity: 0.65;
+        margin-left: 3px;
+      }
+      .snake-headline-alt-name {
+        margin-top: 4px;
+        font-size: 12px;
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .snake-headline-alt-meta {
+        margin-top: 1px;
+        font-size: 10px;
+        opacity: 0.6;
+      }
+      .snake-headline-alt-par {
+        margin-top: 4px;
+        font-size: 11.5px;
+        font-weight: 700;
+        color: #7ee787;
+        font-variant-numeric: tabular-nums;
+      }
+      .snake-rec-tabs {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 0 8px;
+        border-top: 1px solid #2a2e37;
+      }
+      .snake-rec-tab {
+        flex: 1;
+        min-width: 0;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        color: #8b949e;
+        font-size: 10.5px;
+        font-weight: 600;
+        padding: 8px 2px 6px;
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .snake-rec-info-btn {
+        flex-shrink: 0;
+        padding: 2px 6px;
+        font-size: 12px;
+      }
+      /* The ⓘ explanation text — real feedback: with no styling of its own
+         it rendered at the SAME size/weight as the panel's regular body
+         text, making it read as more dominant/important than the section
+         headers around it. Deliberately smaller, thinner, and dimmer than
+         everything near it — a footnote, not a headline. */
+      .snake-rec-info {
+        padding: 6px 12px 0;
+        font-size: 10.5px;
+        font-weight: 400;
+        line-height: 1.45;
+        color: #8b949e;
+        opacity: 0.85;
+      }
+      .snake-rec-tab:hover {
+        color: #e6e6e6;
+      }
+      .snake-rec-tab.active {
+        color: #a5b4fc;
+        border-bottom-color: #818cf8;
+      }
+      /* Secondary sub-tab rows — Draft Rank's Full Team/Starters Only
+         toggle, and Position's QB/RB/WR/TE/K/DST row. Deliberately smaller
+         and pill-shaped rather than reusing .snake-rec-tab's underline
+         style, so they read as a second-level filter under the main tab
+         row, not a sibling set of top-level tabs. */
+      .snake-rank-mode-tabs,
+      .snake-position-sub-tabs {
+        display: flex;
+        gap: 4px;
+        padding: 6px 12px 0;
+        flex-wrap: wrap;
+      }
+      .snake-rank-mode-tab,
+      .snake-position-sub-tab {
+        background: #14161a;
+        border: 1px solid #2a2e37;
+        border-radius: 999px;
+        color: #8b949e;
+        font-size: 10.5px;
+        font-weight: 600;
+        padding: 3px 9px;
+        cursor: pointer;
+      }
+      .snake-rank-mode-tab:hover,
+      .snake-position-sub-tab:hover {
+        color: #e6e6e6;
+      }
+      .snake-rank-mode-tab.active,
+      .snake-position-sub-tab.active {
+        background: rgba(129, 140, 248, 0.14);
+        border-color: #818cf8;
+        color: #a5b4fc;
+      }
+      .snake-rec-list {
+        padding: 6px 12px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+      .snake-rec-row {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        font-size: 12.5px;
+        padding: 3px 0;
+      }
+      .snake-rec-rank {
+        color: #8b949e;
+        font-variant-numeric: tabular-nums;
+        width: 14px;
+        flex-shrink: 0;
+      }
+      .snake-rec-name {
+        font-weight: 600;
+        flex-shrink: 0;
+      }
+      .snake-rec-meta {
+        opacity: 0.6;
+        flex: 1;
+      }
+      /* Draft Rank rows have no meta span to take up the flexible space —
+         real Sleeper team names run long, so the name itself needs to be
+         the flexible, truncating element instead of the fixed-width
+         behavior player rows use. */
+      .snake-rank-name {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .snake-rank-own {
+        background: rgba(129, 140, 248, 0.09);
+        border-radius: 4px;
+        margin: 0 -6px;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+      .snake-rank-you {
+        color: #a5b4fc;
+        font-weight: 400;
+      }
+      .tier-cliff {
+        text-decoration: underline;
+        text-decoration-color: #e3b341;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 2px;
+      }
+      .run-flag {
+        flex-shrink: 0;
+        font-size: 11px;
+      }
+      .snake-rec-par {
+        color: #7ee787;
+        font-variant-numeric: tabular-nums;
+        flex-shrink: 0;
+      }
+      .snake-rec-empty {
+        font-size: 12px;
+        opacity: 0.6;
+        padding: 4px 0;
+      }
+      /* Auction's Results tab — a compact grid, not the ranked-list rows
+         above (there's no rank number here, and it needs 5 aligned columns
+         instead of a name + one trailing number). */
+      .auction-results-list {
+        padding: 6px 12px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .auction-results-row {
+        display: grid;
+        grid-template-columns: 1.6fr 1fr 0.6fr 0.6fr 0.7fr;
+        align-items: baseline;
+        gap: 6px;
+        font-size: 12px;
+        padding: 3px 0;
+      }
+      .auction-results-header {
+        color: #8b949e;
+        font-size: 10.5px;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #2d323b;
+        margin-bottom: 2px;
+      }
+      .auction-results-player,
+      .auction-results-team {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .auction-results-pos {
+        opacity: 0.55;
+        font-size: 10.5px;
+      }
+      .auction-results-team {
+        opacity: 0.7;
+      }
+      .auction-results-price,
+      .auction-results-rec {
+        font-variant-numeric: tabular-nums;
+        opacity: 0.75;
+      }
+      .auction-results-value {
+        font-variant-numeric: tabular-nums;
+        font-weight: 600;
+        text-align: right;
+      }
+      .value-good {
+        color: #7ee787;
+      }
+      .value-bad {
+        color: #ff6b6b;
+      }
+      details.nominee-factors {
+        border-top: 1px solid #2a2e37;
+      }
+      details.nominee-factors summary {
+        padding: 6px 12px;
+        font-size: 11px;
+        opacity: 0.65;
+        cursor: pointer;
+      }
+      details.nominee-factors summary:hover {
+        opacity: 0.9;
+      }
+      .factors-list {
+        padding: 0 12px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 12px;
+      }
+      .factor-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .factor-label {
+        opacity: 0.7;
+      }
+      .factor-value.negative {
+        color: #ff9c9c;
+      }
+      .factor-value.positive {
+        color: #7ee787;
+      }
+      .factor-value.neutral {
+        opacity: 0.6;
+      }
+      #nominee-empty {
+        padding: 18px 12px;
+        text-align: center;
+        opacity: 0.5;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="view-tabs">
+      <button type="button" id="view-tab-draft" class="view-tab active" data-view="draft">Draft</button>
+      <button type="button" id="view-tab-settings" class="view-tab" data-view="settings">Settings</button>
+      <button type="button" id="feedback-btn" class="feedback-btn" title="Send feedback">✉️</button>
+    </div>
+    <div id="settings-view" style="display: none;">
+      <div class="settings-tabs">
+        <button type="button" class="settings-tab active" data-settings-tab="account">Account <span id="account-summary-status" class="count"></span></button>
+        <button type="button" class="settings-tab" data-settings-tab="roster">Roster</button>
+        <button type="button" class="settings-tab" data-settings-tab="scoring">Scoring</button>
+      </div>
+      <div class="settings-tab-panel" id="settings-tab-account">
+        <div id="account-logged-out" class="roster-field" style="padding: 10px 12px; gap: 8px;">
+          <p style="opacity: 0.65; font-size: 11px; margin: 0;">
+            Log in to auto-detect your team while drafting — settings and factor toggles come from
+            your DraftGenius account instead of the generic defaults below. Optional; the extension
+            works without it.
+          </p>
+          <input type="email" id="account-email" placeholder="Email" autocomplete="username" />
+          <input type="password" id="account-password" placeholder="Password" autocomplete="current-password" />
+          <div class="roster-actions" style="padding: 0;">
+            <button id="account-login">Log in</button>
+            <span id="account-login-status" style="opacity: 0.6; font-size: 11px;"></span>
+          </div>
+        </div>
+        <div id="account-logged-in" class="roster-field" style="padding: 10px 12px; gap: 6px; display: none;">
+          <p style="margin: 0; font-size: 12px;">Logged in as <strong id="account-email-display"></strong></p>
+          <p id="account-match-status" style="opacity: 0.75; font-size: 11.5px; margin: 0;"></p>
+          <p id="account-effective-roster" style="opacity: 0.6; font-size: 11px; margin: 0; font-family: monospace;"></p>
+          <div id="account-settings-conflict" class="settings-conflict-banner" style="display: none;">
+            <p id="account-settings-conflict-text"></p>
+            <div class="roster-actions" style="padding: 0;">
+              <button id="account-settings-conflict-update" type="button">Update my saved team</button>
+              <button id="account-settings-conflict-dismiss" type="button" style="background: none; border: none; opacity: 0.6;">Dismiss</button>
+            </div>
+          </div>
+          <div id="account-team-picker" style="display: none;">
+            <select id="account-team-select" style="width: 100%; background: #14161a; color: #e6e6e6; border: 1px solid #3a3f4b; border-radius: 6px; padding: 4px 6px; font-size: 12px;">
+              <option value="">Select your team…</option>
+            </select>
+          </div>
+          <div class="roster-actions" style="padding: 0;">
+            <button id="account-logout">Log out</button>
+          </div>
+        </div>
+      </div>
+      <div class="settings-tab-panel" id="settings-tab-roster" style="display: none;">
+        <p style="margin: 10px 12px 8px; font-size: 11px; opacity: 0.6;">
+          Starting slots per position — manual fallback for ESPN/Yahoo, or Sleeper drafts we can't
+          detect settings for. A detected Sleeper league uses its own real settings automatically —
+          the fields below then show and reflect those real numbers instead of this fallback, since
+          this fallback isn't what's actually being used in that case.
+        </p>
+        <p id="roster-effective-banner" style="margin: 0 12px 10px; font-size: 11px; display: none; color: #7ee787; font-family: monospace;"></p>
+        <div class="roster-grid">
+          <div class="roster-field"><label for="slot-QB">QB</label><input type="number" min="0" id="slot-QB" /></div>
+          <div class="roster-field"><label for="slot-RB">RB</label><input type="number" min="0" id="slot-RB" /></div>
+          <div class="roster-field"><label for="slot-WR">WR</label><input type="number" min="0" id="slot-WR" /></div>
+          <div class="roster-field"><label for="slot-TE">TE</label><input type="number" min="0" id="slot-TE" /></div>
+          <div class="roster-field"><label for="slot-FLEX">FLEX</label><input type="number" min="0" id="slot-FLEX" /></div>
+          <div class="roster-field"><label for="slot-DST">DST</label><input type="number" min="0" id="slot-DST" /></div>
+          <div class="roster-field"><label for="slot-K">K</label><input type="number" min="0" id="slot-K" /></div>
+          <div class="roster-field"><label for="slot-BENCH">BENCH</label><input type="number" min="0" id="slot-BENCH" /></div>
+        </div>
+        <div class="roster-field" style="padding: 0 12px 10px; flex-direction: row; align-items: center; gap: 8px;">
+          <input type="checkbox" id="flex-includes-te" style="width: auto;" />
+          <label for="flex-includes-te" style="margin: 0;">FLEX includes TE (uncheck for W/R only, no TE)</label>
+        </div>
+        <div class="roster-field" style="padding: 0 12px 10px; max-width: 220px">
+          <label for="bench-budget-pct">Bench budget — % of your TOTAL budget reserved for bench (0 = spend everything on your starting lineup)</label>
+          <input type="number" min="0" max="100" id="bench-budget-pct" />
+        </div>
+        <div class="roster-field" style="padding: 0 12px 10px; flex-direction: row; align-items: center; gap: 8px;">
+          <input type="checkbox" id="snake-mode" style="width: auto;" />
+          <label for="snake-mode" style="margin: 0;">Snake draft (no bidding — for ESPN/Yahoo only; Sleeper detects this automatically)</label>
+        </div>
+        <div class="roster-actions">
+          <button id="roster-save">Save</button>
+          <span id="roster-saved">Saved</span>
+        </div>
+      </div>
+      <div class="settings-tab-panel" id="settings-tab-scoring" style="display: none;">
+        <p style="margin: 10px 12px 8px; font-size: 11px; opacity: 0.6;">
+          Points per stat — manual fallback for ESPN/Yahoo, or Sleeper drafts we can't detect
+          settings for. A detected Sleeper league uses its own real scoring automatically — the
+          fields below then show and reflect those real numbers instead of this fallback, since
+          this fallback isn't what's actually being used in that case.
+        </p>
+        <p id="scoring-effective-banner" style="margin: 0 12px 10px; font-size: 11px; display: none; color: #7ee787; font-family: monospace;"></p>
+        <div class="roster-grid">
+          <div class="roster-field"><label for="rule-passYardsPerPoint">Pass Yds/Pt</label><input type="number" min="0" step="any" id="rule-passYardsPerPoint" /></div>
+          <div class="roster-field"><label for="rule-passTd">Pass TD</label><input type="number" step="any" id="rule-passTd" /></div>
+          <div class="roster-field"><label for="rule-interception">INT</label><input type="number" step="any" id="rule-interception" /></div>
+          <div class="roster-field"><label for="rule-rushYardsPerPoint">Rush Yds/Pt</label><input type="number" min="0" step="any" id="rule-rushYardsPerPoint" /></div>
+          <div class="roster-field"><label for="rule-rushTd">Rush TD</label><input type="number" step="any" id="rule-rushTd" /></div>
+          <div class="roster-field"><label for="rule-receptionPoints">Reception</label><input type="number" step="any" id="rule-receptionPoints" /></div>
+          <div class="roster-field"><label for="rule-recYardsPerPoint">Rec Yds/Pt</label><input type="number" min="0" step="any" id="rule-recYardsPerPoint" /></div>
+          <div class="roster-field"><label for="rule-recTd">Rec TD</label><input type="number" step="any" id="rule-recTd" /></div>
+          <div class="roster-field"><label for="rule-fumbleLost">Fumble Lost</label><input type="number" step="any" id="rule-fumbleLost" /></div>
+          <div class="roster-field"><label for="rule-fieldGoal">FG</label><input type="number" step="any" id="rule-fieldGoal" /></div>
+          <div class="roster-field"><label for="rule-extraPoint">XP</label><input type="number" step="any" id="rule-extraPoint" /></div>
+          <div class="roster-field"><label for="rule-defSack">Sack</label><input type="number" step="any" id="rule-defSack" /></div>
+          <div class="roster-field"><label for="rule-defInt">Def INT</label><input type="number" step="any" id="rule-defInt" /></div>
+          <div class="roster-field"><label for="rule-defFumbleRecovery">Fum Rec</label><input type="number" step="any" id="rule-defFumbleRecovery" /></div>
+          <div class="roster-field"><label for="rule-defForcedFumble">Forced Fum</label><input type="number" step="any" id="rule-defForcedFumble" /></div>
+          <div class="roster-field"><label for="rule-defTd">Def TD</label><input type="number" step="any" id="rule-defTd" /></div>
+          <div class="roster-field"><label for="rule-defSafety">Safety</label><input type="number" step="any" id="rule-defSafety" /></div>
+        </div>
+        <div class="roster-actions">
+          <button id="scoring-save">Save</button>
+          <span id="scoring-saved">Saved</span>
+        </div>
+      </div>
+    </div>
+    <div id="draft-view">
+      <div id="budget-prompt">
+        <span>Couldn't detect the auction's starting budget (capture started mid-draft). Enter it:</span>
+        <input type="number" id="budget-input" min="1" placeholder="200" />
+        <button id="budget-submit">Set</button>
+      </div>
+      <div id="nominee-cards"></div>
+      <div id="nominee-empty">No active nomination. Open a live ESPN, Yahoo, or Sleeper draft room in another tab.</div>
+    </div>
+    <script type="module" src="sidepanel.js"></script>
+  </body>
+</html>

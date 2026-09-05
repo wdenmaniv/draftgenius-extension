@@ -1,0 +1,5256 @@
+{
+  "christian mccaffrey": {
+    "name": "Christian McCaffrey",
+    "seasons": {
+      "2023": 16,
+      "2024": 4,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1346
+  },
+  "ceedee lamb": {
+    "name": "CeeDee Lamb",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh allen": {
+    "name": "Josh Allen",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen hurts": {
+    "name": "Jalen Hurts",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "amon ra st brown": {
+    "name": "Amon-Ra St. Brown",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dak prescott": {
+    "name": "Dak Prescott",
+    "seasons": {
+      "2023": 17,
+      "2024": 8,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "mike evans": {
+    "name": "Mike Evans",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 8
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "lamar jackson": {
+    "name": "Lamar Jackson",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "sam laporta": {
+    "name": "Sam LaPorta",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "travis etienne": {
+    "name": "Travis Etienne",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kyren williams": {
+    "name": "Kyren Williams",
+    "seasons": {
+      "2023": 12,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "puka nacua": {
+    "name": "Puka Nacua",
+    "seasons": {
+      "2023": 17,
+      "2024": 11,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dj moore": {
+    "name": "D.J. Moore",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "derrick henry": {
+    "name": "Derrick Henry",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jordan love": {
+    "name": "Jordan Love",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "breece hall": {
+    "name": "Breece Hall",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "aj brown": {
+    "name": "A.J. Brown",
+    "seasons": {
+      "2023": 17,
+      "2024": 13,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "deebo samuel": {
+    "name": "Deebo Samuel",
+    "seasons": {
+      "2023": 15,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "george kittle": {
+    "name": "George Kittle",
+    "seasons": {
+      "2023": 16,
+      "2024": 15,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "nico collins": {
+    "name": "Nico Collins",
+    "seasons": {
+      "2023": 15,
+      "2024": 12,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rachaad white": {
+    "name": "Rachaad White",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "travis kelce": {
+    "name": "Travis Kelce",
+    "seasons": {
+      "2023": 15,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tj hockenson": {
+    "name": "T.J. Hockenson",
+    "seasons": {
+      "2023": 15,
+      "2024": 10,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "stefon diggs": {
+    "name": "Stefon Diggs",
+    "seasons": {
+      "2023": 17,
+      "2024": 8,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "david njoku": {
+    "name": "David Njoku",
+    "seasons": {
+      "2023": 16,
+      "2024": 11,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "brock purdy": {
+    "name": "Brock Purdy",
+    "seasons": {
+      "2023": 16,
+      "2024": 15,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "david montgomery": {
+    "name": "David Montgomery",
+    "seasons": {
+      "2023": 14,
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jamarr chase": {
+    "name": "Ja'Marr Chase",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "davante adams": {
+    "name": "Davante Adams",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jahmyr gibbs": {
+    "name": "Jahmyr Gibbs",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "evan engram": {
+    "name": "Evan Engram",
+    "seasons": {
+      "2023": 17,
+      "2024": 9,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "james cook": {
+    "name": "James Cook",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "bijan robinson": {
+    "name": "Bijan Robinson",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dk metcalf": {
+    "name": "D.K. Metcalf",
+    "seasons": {
+      "2023": 16,
+      "2024": 15,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jared goff": {
+    "name": "Jared Goff",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "saquon barkley": {
+    "name": "Saquon Barkley",
+    "seasons": {
+      "2023": 14,
+      "2024": 16,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "calvin ridley": {
+    "name": "Calvin Ridley",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0962
+  },
+  "jayden reed": {
+    "name": "Jayden Reed",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "cole kmet": {
+    "name": "Cole Kmet",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jordan addison": {
+    "name": "Jordan Addison",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jake ferguson": {
+    "name": "Jake Ferguson",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "patrick mahomes": {
+    "name": "Patrick Mahomes",
+    "seasons": {
+      "2023": 16,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jakobi meyers": {
+    "name": "Jakobi Meyers",
+    "seasons": {
+      "2023": 16,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "james conner": {
+    "name": "James Conner",
+    "seasons": {
+      "2023": 13,
+      "2024": 16,
+      "2025": 3
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1827
+  },
+  "devonta smith": {
+    "name": "DeVonta Smith",
+    "seasons": {
+      "2023": 16,
+      "2024": 13,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "george pickens": {
+    "name": "George Pickens",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "trey mcbride": {
+    "name": "Trey McBride",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris olave": {
+    "name": "Chris Olave",
+    "seasons": {
+      "2023": 16,
+      "2024": 8,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "cj stroud": {
+    "name": "C.J. Stroud",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kenneth walker": {
+    "name": "Kenneth Walker III",
+    "seasons": {
+      "2023": 15,
+      "2024": 11,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "baker mayfield": {
+    "name": "Baker Mayfield",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isiah pacheco": {
+    "name": "Isiah Pacheco",
+    "seasons": {
+      "2023": 14,
+      "2024": 7,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1635
+  },
+  "michael pittman": {
+    "name": "Michael Pittman Jr.",
+    "seasons": {
+      "2023": 16,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tony pollard": {
+    "name": "Tony Pollard",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jerome ford": {
+    "name": "Jerome Ford",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "najee harris": {
+    "name": "Najee Harris",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 3
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1346
+  },
+  "tua tagovailoa": {
+    "name": "Tua Tagovailoa",
+    "seasons": {
+      "2023": 17,
+      "2024": 11,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dalton schultz": {
+    "name": "Dalton Schultz",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mark andrews": {
+    "name": "Mark Andrews",
+    "seasons": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devon achane": {
+    "name": "De'Von Achane",
+    "seasons": {
+      "2023": 11,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "justin jefferson": {
+    "name": "Justin Jefferson",
+    "seasons": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brian robinson": {
+    "name": "Brian Robinson Jr.",
+    "seasons": {
+      "2023": 15,
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rashee rice": {
+    "name": "Rashee Rice",
+    "seasons": {
+      "2023": 16,
+      "2024": 4,
+      "2025": 8
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2212
+  },
+  "dandre swift": {
+    "name": "D'Andre Swift",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "courtland sutton": {
+    "name": "Courtland Sutton",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "terry mclaurin": {
+    "name": "Terry McLaurin",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "trevor lawrence": {
+    "name": "Trevor Lawrence",
+    "seasons": {
+      "2023": 16,
+      "2024": 10,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "sam howell": {
+    "name": "Sam Howell",
+    "seasons": {
+      "2023": 17,
+      "2024": 2
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2163
+  },
+  "matthew stafford": {
+    "name": "Matthew Stafford",
+    "seasons": {
+      "2023": 15,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "justin herbert": {
+    "name": "Justin Herbert",
+    "seasons": {
+      "2023": 13,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "justin fields": {
+    "name": "Justin Fields",
+    "seasons": {
+      "2023": 13,
+      "2024": 10,
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "geno smith": {
+    "name": "Geno Smith",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "joshua dobbs": {
+    "name": "Joshua Dobbs",
+    "seasons": {
+      "2023": 13,
+      "2024": 2,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "gardner minshew": {
+    "name": "Gardner Minshew II",
+    "seasons": {
+      "2023": 17,
+      "2024": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "alvin kamara": {
+    "name": "Alvin Kamara",
+    "seasons": {
+      "2023": 13,
+      "2024": 14,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.125
+  },
+  "bryce young": {
+    "name": "Bryce Young",
+    "seasons": {
+      "2023": 16,
+      "2024": 14,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kirk cousins": {
+    "name": "Kirk Cousins",
+    "seasons": {
+      "2023": 8,
+      "2024": 14,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1827
+  },
+  "joe burrow": {
+    "name": "Joe Burrow",
+    "seasons": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 8
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1538
+  },
+  "kyler murray": {
+    "name": "Kyler Murray",
+    "seasons": {
+      "2023": 8,
+      "2024": 17,
+      "2025": 5
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2019
+  },
+  "chuba hubbard": {
+    "name": "Chuba Hubbard",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh jacobs": {
+    "name": "Josh Jacobs",
+    "seasons": {
+      "2023": 13,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jake browning": {
+    "name": "Jake Browning",
+    "seasons": {
+      "2023": 9,
+      "2024": 3,
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devin singletary": {
+    "name": "Devin Singletary",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jonathan taylor": {
+    "name": "Jonathan Taylor",
+    "seasons": {
+      "2023": 10,
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaylen warren": {
+    "name": "Jaylen Warren",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "javonte williams": {
+    "name": "Javonte Williams",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "zay flowers": {
+    "name": "Zay Flowers",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaylen waddle": {
+    "name": "Jaylen Waddle",
+    "seasons": {
+      "2023": 14,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris godwin": {
+    "name": "Chris Godwin",
+    "seasons": {
+      "2023": 17,
+      "2024": 7,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1731
+  },
+  "aidan oconnell": {
+    "name": "Aidan O'Connell",
+    "seasons": {
+      "2023": 11,
+      "2024": 9,
+      "2025": 1
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler allgeier": {
+    "name": "Tyler Allgeier",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tank dell": {
+    "name": "Tank Dell",
+    "seasons": {
+      "2023": 11,
+      "2024": 14
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "garrett wilson": {
+    "name": "Garrett Wilson",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0962
+  },
+  "romeo doubs": {
+    "name": "Romeo Doubs",
+    "seasons": {
+      "2023": 17,
+      "2024": 13,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kenny pickett": {
+    "name": "Kenny Pickett",
+    "seasons": {
+      "2023": 12,
+      "2024": 5,
+      "2025": 6
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rashid shaheed": {
+    "name": "Rashid Shaheed",
+    "seasons": {
+      "2023": 15,
+      "2024": 6,
+      "2025": 18
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "rhamondre stevenson": {
+    "name": "Rhamondre Stevenson",
+    "seasons": {
+      "2023": 12,
+      "2024": 15,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mac jones": {
+    "name": "Mac Jones",
+    "seasons": {
+      "2023": 11,
+      "2024": 10,
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "aaron jones": {
+    "name": "Aaron Jones",
+    "seasons": {
+      "2023": 11,
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "cooper kupp": {
+    "name": "Cooper Kupp",
+    "seasons": {
+      "2023": 12,
+      "2024": 12,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "drake london": {
+    "name": "Drake London",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "will levis": {
+    "name": "Will Levis",
+    "seasons": {
+      "2023": 9,
+      "2024": 12
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyjae spears": {
+    "name": "Tyjae Spears",
+    "seasons": {
+      "2023": 17,
+      "2024": 12,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "joe flacco": {
+    "name": "Joe Flacco",
+    "seasons": {
+      "2023": 5,
+      "2024": 8,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "darius slayton": {
+    "name": "Darius Slayton",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "aj dillon": {
+    "name": "AJ Dillon",
+    "seasons": {
+      "2023": 15,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1731
+  },
+  "tee higgins": {
+    "name": "Tee Higgins",
+    "seasons": {
+      "2023": 12,
+      "2024": 12,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "tommy devito": {
+    "name": "Tommy DeVito",
+    "seasons": {
+      "2023": 9,
+      "2024": 3
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "christian kirk": {
+    "name": "Christian Kirk",
+    "seasons": {
+      "2023": 12,
+      "2024": 8,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh downs": {
+    "name": "Josh Downs",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jerry jeudy": {
+    "name": "Jerry Jeudy",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaxon smith njigba": {
+    "name": "Jaxon Smith-Njigba",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyrod taylor": {
+    "name": "Tyrod Taylor",
+    "seasons": {
+      "2023": 11,
+      "2024": 2,
+      "2025": 6
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "deshaun watson": {
+    "name": "Deshaun Watson",
+    "seasons": {
+      "2023": 6,
+      "2024": 7
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kyle pitts": {
+    "name": "Kyle Pitts",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "justice hill": {
+    "name": "Justice Hill",
+    "seasons": {
+      "2023": 16,
+      "2024": 15,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dontayvion wicks": {
+    "name": "Dontayvion Wicks",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ty chandler": {
+    "name": "Ty Chandler",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 3
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1346
+  },
+  "hunter henry": {
+    "name": "Hunter Henry",
+    "seasons": {
+      "2023": 14,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dallas goedert": {
+    "name": "Dallas Goedert",
+    "seasons": {
+      "2023": 14,
+      "2024": 10,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dalton kincaid": {
+    "name": "Dalton Kincaid",
+    "seasons": {
+      "2023": 16,
+      "2024": 13,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.0962
+  },
+  "michael wilson": {
+    "name": "Michael Wilson",
+    "seasons": {
+      "2023": 13,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jahan dotson": {
+    "name": "Jahan Dotson",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rico dowdle": {
+    "name": "Rico Dowdle",
+    "seasons": {
+      "2023": 16,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "khalil shakir": {
+    "name": "Khalil Shakir",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tutu atwell": {
+    "name": "Tutu Atwell",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "odell beckham": {
+    "name": "Odell Beckham Jr.",
+    "seasons": {
+      "2023": 14,
+      "2024": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1587
+  },
+  "zach charbonnet": {
+    "name": "Zach Charbonnet",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "anthony richardson": {
+    "name": "Anthony Richardson",
+    "seasons": {
+      "2023": 4,
+      "2024": 11,
+      "2025": 2
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "wandale robinson": {
+    "name": "Wan'Dale Robinson",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "christian watson": {
+    "name": "Christian Watson",
+    "seasons": {
+      "2023": 9,
+      "2024": 15,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1635
+  },
+  "isaiah likely": {
+    "name": "Isaiah Likely",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "samaje perine": {
+    "name": "Samaje Perine",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cade otton": {
+    "name": "Cade Otton",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dameon pierce": {
+    "name": "Dameon Pierce",
+    "seasons": {
+      "2023": 14,
+      "2024": 11,
+      "2025": 5
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2019
+  },
+  "roschon johnson": {
+    "name": "Roschon Johnson",
+    "seasons": {
+      "2023": 15,
+      "2024": 14,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "nick mullens": {
+    "name": "Nick Mullens",
+    "seasons": {
+      "2023": 5,
+      "2024": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kendrick bourne": {
+    "name": "Kendrick Bourne",
+    "seasons": {
+      "2023": 8,
+      "2024": 12,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "alec pierce": {
+    "name": "Alec Pierce",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler conklin": {
+    "name": "Tyler Conklin",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler higbee": {
+    "name": "Tyler Higbee",
+    "seasons": {
+      "2023": 15,
+      "2024": 3,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2212
+  },
+  "kalif raymond": {
+    "name": "Kalif Raymond",
+    "seasons": {
+      "2023": 17,
+      "2024": 12,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "justin watson": {
+    "name": "Justin Watson",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 3
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "juwan johnson": {
+    "name": "Juwan Johnson",
+    "seasons": {
+      "2023": 13,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "keaton mitchell": {
+    "name": "Keaton Mitchell",
+    "seasons": {
+      "2023": 8,
+      "2024": 5,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "demarcus robinson": {
+    "name": "Demarcus Robinson",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "darren waller": {
+    "name": "Darren Waller",
+    "seasons": {
+      "2023": 12,
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chig okonkwo": {
+    "name": "Chig Okonkwo",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "demario douglas": {
+    "name": "DeMario Douglas",
+    "seasons": {
+      "2023": 14,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "daniel jones": {
+    "name": "Daniel Jones",
+    "seasons": {
+      "2023": 6,
+      "2024": 10,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "nick westbrook ikhine": {
+    "name": "Nick Westbrook-Ikhine",
+    "seasons": {
+      "2023": 14,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "quentin johnston": {
+    "name": "Quentin Johnston",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jameson williams": {
+    "name": "Jameson Williams",
+    "seasons": {
+      "2023": 12,
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyson bagent": {
+    "name": "Tyson Bagent",
+    "seasons": {
+      "2023": 5,
+      "2024": 4,
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tre tucker": {
+    "name": "Tre Tucker",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "emari demercado": {
+    "name": "Emari Demercado",
+    "seasons": {
+      "2023": 14,
+      "2024": 13,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "marvin mims": {
+    "name": "Marvin Mims",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mitchell trubisky": {
+    "name": "Mitchell Trubisky",
+    "seasons": {
+      "2023": 5,
+      "2024": 9,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tucker kraft": {
+    "name": "Tucker Kraft",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 8
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "darnell mooney": {
+    "name": "Darnell Mooney",
+    "seasons": {
+      "2023": 15,
+      "2024": 16,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kavontae turpin": {
+    "name": "KaVontae Turpin",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rashod bateman": {
+    "name": "Rashod Bateman",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "pat freiermuth": {
+    "name": "Pat Freiermuth",
+    "seasons": {
+      "2023": 12,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "michael mayer": {
+    "name": "Michael Mayer",
+    "seasons": {
+      "2023": 14,
+      "2024": 11,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.125
+  },
+  "noah gray": {
+    "name": "Noah Gray",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jordan mason": {
+    "name": "Jordan Mason",
+    "seasons": {
+      "2023": 17,
+      "2024": 12,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jonathan mingo": {
+    "name": "Jonathan Mingo",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 6
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.125
+  },
+  "greg dortch": {
+    "name": "Greg Dortch",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "noah fant": {
+    "name": "Noah Fant",
+    "seasons": {
+      "2023": 17,
+      "2024": 14,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tanner hudson": {
+    "name": "Tanner Hudson",
+    "seasons": {
+      "2023": 12,
+      "2024": 11,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.125
+  },
+  "luke musgrave": {
+    "name": "Luke Musgrave",
+    "seasons": {
+      "2023": 11,
+      "2024": 7,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1538
+  },
+  "chase brown": {
+    "name": "Chase Brown",
+    "seasons": {
+      "2023": 12,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mason rudolph": {
+    "name": "Mason Rudolph",
+    "seasons": {
+      "2023": 4,
+      "2024": 8,
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "adam trautman": {
+    "name": "Adam Trautman",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "colby parkinson": {
+    "name": "Colby Parkinson",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "durham smythe": {
+    "name": "Durham Smythe",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen tolbert": {
+    "name": "Jalen Tolbert",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tommy tremble": {
+    "name": "Tommy Tremble",
+    "seasons": {
+      "2023": 16,
+      "2024": 12,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mo alie cox": {
+    "name": "Mo Alie-Cox",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "calvin austin": {
+    "name": "Calvin Austin III",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mike gesicki": {
+    "name": "Mike Gesicki",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "andrei iosivas": {
+    "name": "Andrei Iosivas",
+    "seasons": {
+      "2023": 16,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris rodriguez": {
+    "name": "Chris Rodriguez",
+    "seasons": {
+      "2023": 13,
+      "2024": 9,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jauan jennings": {
+    "name": "Jauan Jennings",
+    "seasons": {
+      "2023": 13,
+      "2024": 15,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dawson knox": {
+    "name": "Dawson Knox",
+    "seasons": {
+      "2023": 12,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kendre miller": {
+    "name": "Kendre Miller",
+    "seasons": {
+      "2023": 8,
+      "2024": 6,
+      "2025": 7
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "skyy moore": {
+    "name": "Skyy Moore",
+    "seasons": {
+      "2023": 14,
+      "2024": 6,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1346
+  },
+  "braxton berrios": {
+    "name": "Braxton Berrios",
+    "seasons": {
+      "2023": 16,
+      "2024": 6,
+      "2025": 4
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2404
+  },
+  "josh oliver": {
+    "name": "Josh Oliver",
+    "seasons": {
+      "2023": 17,
+      "2024": 15,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "bo melton": {
+    "name": "Bo Melton",
+    "seasons": {
+      "2023": 5,
+      "2024": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1731
+  },
+  "drew lock": {
+    "name": "Drew Lock",
+    "seasons": {
+      "2023": 4,
+      "2024": 8
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "drew sample": {
+    "name": "Drew Sample",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "olamide zaccheaus": {
+    "name": "Olamide Zaccheaus",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "salvon ahmed": {
+    "name": "Salvon Ahmed",
+    "seasons": {
+      "2023": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jarrett stidham": {
+    "name": "Jarrett Stidham",
+    "seasons": {
+      "2023": 3,
+      "2024": 3
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "daniel bellinger": {
+    "name": "Daniel Bellinger",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler huntley": {
+    "name": "Tyler Huntley",
+    "seasons": {
+      "2023": 5,
+      "2024": 5,
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mack hollins": {
+    "name": "Mack Hollins",
+    "seasons": {
+      "2023": 13,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ty johnson": {
+    "name": "Ty Johnson",
+    "seasons": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "foster moreau": {
+    "name": "Foster Moreau",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "treylon burks": {
+    "name": "Treylon Burks",
+    "seasons": {
+      "2023": 11,
+      "2024": 5,
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "andy dalton": {
+    "name": "Andy Dalton",
+    "seasons": {
+      "2023": 3,
+      "2024": 6,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jacoby brissett": {
+    "name": "Jacoby Brissett",
+    "seasons": {
+      "2023": 3,
+      "2024": 8,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.25
+  },
+  "dyami brown": {
+    "name": "Dyami Brown",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "sam darnold": {
+    "name": "Sam Darnold",
+    "seasons": {
+      "2023": 10,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "austin hooper": {
+    "name": "Austin Hooper",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "johnny mundt": {
+    "name": "Johnny Mundt",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cedric tillman": {
+    "name": "Cedric Tillman",
+    "seasons": {
+      "2023": 14,
+      "2024": 11,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.125
+  },
+  "parker washington": {
+    "name": "Parker Washington",
+    "seasons": {
+      "2023": 9,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0865
+  },
+  "tank bigsby": {
+    "name": "Tank Bigsby",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "elijah higgins": {
+    "name": "Elijah Higgins",
+    "seasons": {
+      "2023": 11,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen reagor": {
+    "name": "Jalen Reagor",
+    "seasons": {
+      "2023": 11,
+      "2024": 8
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "derius davis": {
+    "name": "Derius Davis",
+    "seasons": {
+      "2023": 17,
+      "2024": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "will mallory": {
+    "name": "Will Mallory",
+    "seasons": {
+      "2023": 12,
+      "2024": 10,
+      "2025": 2
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "luke schoonmaker": {
+    "name": "Luke Schoonmaker",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "davis mills": {
+    "name": "Davis Mills",
+    "seasons": {
+      "2023": 6,
+      "2024": 4,
+      "2025": 6
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "connor heyward": {
+    "name": "Connor Heyward",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "davis allen": {
+    "name": "Davis Allen",
+    "seasons": {
+      "2023": 15,
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "luke farrell": {
+    "name": "Luke Farrell",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "lucas krull": {
+    "name": "Lucas Krull",
+    "seasons": {
+      "2023": 7,
+      "2024": 13,
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "john bates": {
+    "name": "John Bates",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "charlie kolar": {
+    "name": "Charlie Kolar",
+    "seasons": {
+      "2023": 15,
+      "2024": 13,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "david moore": {
+    "name": "David Moore",
+    "seasons": {
+      "2023": 7,
+      "2024": 17,
+      "2025": 4
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2212
+  },
+  "jeremy ruckert": {
+    "name": "Jeremy Ruckert",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh whyle": {
+    "name": "Josh Whyle",
+    "seasons": {
+      "2023": 11,
+      "2024": 17,
+      "2025": 8
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "brock wright": {
+    "name": "Brock Wright",
+    "seasons": {
+      "2023": 14,
+      "2024": 17,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "xavier hutchinson": {
+    "name": "Xavier Hutchinson",
+    "seasons": {
+      "2023": 16,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "charlie jones": {
+    "name": "Charlie Jones",
+    "seasons": {
+      "2023": 11,
+      "2024": 8,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1731
+  },
+  "ben skowronek": {
+    "name": "Ben Skowronek",
+    "seasons": {
+      "2023": 17,
+      "2024": 10,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyquan thornton": {
+    "name": "Tyquan Thornton",
+    "seasons": {
+      "2023": 9,
+      "2024": 6,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2115
+  },
+  "marcus mariota": {
+    "name": "Marcus Mariota",
+    "seasons": {
+      "2023": 3,
+      "2024": 3,
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cole turner": {
+    "name": "Cole Turner",
+    "seasons": {
+      "2023": 12
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jameis winston": {
+    "name": "Jameis Winston",
+    "seasons": {
+      "2023": 7,
+      "2024": 12,
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris brooks": {
+    "name": "Chris Brooks",
+    "seasons": {
+      "2023": 9,
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0962
+  },
+  "emanuel wilson": {
+    "name": "Emanuel Wilson",
+    "seasons": {
+      "2023": 7,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.0962
+  },
+  "jk dobbins": {
+    "name": "J.K. Dobbins",
+    "seasons": {
+      "2023": 1,
+      "2024": 13,
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "hunter luepke": {
+    "name": "Hunter Luepke",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brenton strange": {
+    "name": "Brenton Strange",
+    "seasons": {
+      "2023": 14,
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "israel abanikanda": {
+    "name": "Israel Abanikanda",
+    "seasons": {
+      "2023": 6
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "quintin morris": {
+    "name": "Quintin Morris",
+    "seasons": {
+      "2023": 15,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ben sims": {
+    "name": "Ben Sims",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen brooks": {
+    "name": "Jalen Brooks",
+    "seasons": {
+      "2023": 7,
+      "2024": 14,
+      "2025": 6
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2308
+  },
+  "payne durham": {
+    "name": "Payne Durham",
+    "seasons": {
+      "2023": 13,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ko kieft": {
+    "name": "Ko Kieft",
+    "seasons": {
+      "2023": 16,
+      "2024": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ian thomas": {
+    "name": "Ian Thomas",
+    "seasons": {
+      "2023": 12,
+      "2024": 5,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1827
+  },
+  "darnell washington": {
+    "name": "Darnell Washington",
+    "seasons": {
+      "2023": 17,
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "grant calcaterra": {
+    "name": "Grant Calcaterra",
+    "seasons": {
+      "2023": 15,
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "britain covey": {
+    "name": "Britain Covey",
+    "seasons": {
+      "2023": 16,
+      "2024": 5,
+      "2025": 6
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2308
+  },
+  "jack stoll": {
+    "name": "Jack Stoll",
+    "seasons": {
+      "2023": 17,
+      "2024": 11,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "greg dulcich": {
+    "name": "Greg Dulcich",
+    "seasons": {
+      "2023": 2,
+      "2024": 9,
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devin duvernay": {
+    "name": "Devin Duvernay",
+    "seasons": {
+      "2023": 13,
+      "2024": 13,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": true,
+    "injuryDiscount": 0.0769
+  },
+  "julian hill": {
+    "name": "Julian Hill",
+    "seasons": {
+      "2023": 15,
+      "2024": 16,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen nailor": {
+    "name": "Jalen Nailor",
+    "seasons": {
+      "2023": 6,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1058
+  },
+  "teagan quitoriano": {
+    "name": "Teagan Quitoriano",
+    "seasons": {
+      "2023": 7,
+      "2024": 7
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "sean tucker": {
+    "name": "Sean Tucker",
+    "seasons": {
+      "2023": 11,
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "malik willis": {
+    "name": "Malik Willis",
+    "seasons": {
+      "2023": 3,
+      "2024": 7,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 3,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "charlie woerner": {
+    "name": "Charlie Woerner",
+    "seasons": {
+      "2023": 17,
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jayden daniels": {
+    "name": "Jayden Daniels",
+    "seasons": {
+      "2024": 17,
+      "2025": 7
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "brian thomas": {
+    "name": "Brian Thomas",
+    "seasons": {
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brock bowers": {
+    "name": "Brock Bowers",
+    "seasons": {
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "bucky irving": {
+    "name": "Bucky Irving",
+    "seasons": {
+      "2024": 17,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "malik nabers": {
+    "name": "Malik Nabers",
+    "seasons": {
+      "2024": 15,
+      "2025": 4
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2163
+  },
+  "bo nix": {
+    "name": "Bo Nix",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ladd mcconkey": {
+    "name": "Ladd McConkey",
+    "seasons": {
+      "2024": 16,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "marvin harrison": {
+    "name": "Marvin Harrison Jr.",
+    "seasons": {
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "aaron rodgers": {
+    "name": "Aaron Rodgers",
+    "seasons": {
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "caleb williams": {
+    "name": "Caleb Williams",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "drake maye": {
+    "name": "Drake Maye",
+    "seasons": {
+      "2024": 13,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyrone tracy": {
+    "name": "Tyrone Tracy Jr.",
+    "seasons": {
+      "2024": 17,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "xavier worthy": {
+    "name": "Xavier Worthy",
+    "seasons": {
+      "2024": 17,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ray davis": {
+    "name": "Ray Davis",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen mcmillan": {
+    "name": "Jalen McMillan",
+    "seasons": {
+      "2024": 13,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rome odunze": {
+    "name": "Rome Odunze",
+    "seasons": {
+      "2024": 17,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "keon coleman": {
+    "name": "Keon Coleman",
+    "seasons": {
+      "2024": 13,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kayshon boutte": {
+    "name": "Kayshon Boutte",
+    "seasons": {
+      "2024": 15,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isaac guerendo": {
+    "name": "Isaac Guerendo",
+    "seasons": {
+      "2024": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "xavier legette": {
+    "name": "Xavier Legette",
+    "seasons": {
+      "2024": 16,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "spencer rattler": {
+    "name": "Spencer Rattler",
+    "seasons": {
+      "2024": 7,
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "braelon allen": {
+    "name": "Braelon Allen",
+    "seasons": {
+      "2024": 17,
+      "2025": 4
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1875
+  },
+  "devaughn vele": {
+    "name": "Devaughn Vele",
+    "seasons": {
+      "2024": 13,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jalen coker": {
+    "name": "Jalen Coker",
+    "seasons": {
+      "2024": 11,
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jeremy mcnichols": {
+    "name": "Jeremy McNichols",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "aj barner": {
+    "name": "AJ Barner",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "michael penix": {
+    "name": "Michael Penix",
+    "seasons": {
+      "2024": 5,
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "trey benson": {
+    "name": "Trey Benson",
+    "seasons": {
+      "2024": 13,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jatavion sanders": {
+    "name": "Ja'Tavion Sanders",
+    "seasons": {
+      "2024": 16,
+      "2025": 13
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "troy franklin": {
+    "name": "Troy Franklin",
+    "seasons": {
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "theo johnson": {
+    "name": "Theo Johnson",
+    "seasons": {
+      "2024": 12,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isaiah davis": {
+    "name": "Isaiah Davis",
+    "seasons": {
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "nick vannett": {
+    "name": "Nick Vannett",
+    "seasons": {
+      "2024": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "adonai mitchell": {
+    "name": "Adonai Mitchell",
+    "seasons": {
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jordan whittington": {
+    "name": "Jordan Whittington",
+    "seasons": {
+      "2024": 15,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "nate adkins": {
+    "name": "Nate Adkins",
+    "seasons": {
+      "2024": 17,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "tanner mckee": {
+    "name": "Tanner McKee",
+    "seasons": {
+      "2024": 2,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "malik washington": {
+    "name": "Malik Washington",
+    "seasons": {
+      "2024": 14,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kimani vidal": {
+    "name": "Kimani Vidal",
+    "seasons": {
+      "2024": 10,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "blake corum": {
+    "name": "Blake Corum",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaylen wright": {
+    "name": "Jaylen Wright",
+    "seasons": {
+      "2024": 15,
+      "2025": 10
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "joe milton": {
+    "name": "Joe Milton",
+    "seasons": {
+      "2024": 1,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cade stover": {
+    "name": "Cade Stover",
+    "seasons": {
+      "2024": 15,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1442
+  },
+  "deejay dallas": {
+    "name": "DeeJay Dallas",
+    "seasons": {
+      "2024": 17,
+      "2025": 6
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1587
+  },
+  "bub means": {
+    "name": "Bub Means",
+    "seasons": {
+      "2024": 7
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ashton dulin": {
+    "name": "Ashton Dulin",
+    "seasons": {
+      "2024": 15,
+      "2025": 12
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "luke mccaffrey": {
+    "name": "Luke McCaffrey",
+    "seasons": {
+      "2024": 17,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "erick all": {
+    "name": "Erick All",
+    "seasons": {
+      "2024": 9
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "eric saubert": {
+    "name": "Eric Saubert",
+    "seasons": {
+      "2024": 17,
+      "2025": 11
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "trey lance": {
+    "name": "Trey Lance",
+    "seasons": {
+      "2024": 4,
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyrell shavers": {
+    "name": "Tyrell Shavers",
+    "seasons": {
+      "2024": 3,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2019
+  },
+  "will shipley": {
+    "name": "Will Shipley",
+    "seasons": {
+      "2024": 16,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "blake whiteheart": {
+    "name": "Blake Whiteheart",
+    "seasons": {
+      "2024": 11
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mason tipton": {
+    "name": "Mason Tipton",
+    "seasons": {
+      "2024": 11,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devin culp": {
+    "name": "Devin Culp",
+    "seasons": {
+      "2024": 5,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris manhertz": {
+    "name": "Chris Manhertz",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ben sinnott": {
+    "name": "Ben Sinnott",
+    "seasons": {
+      "2024": 17,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brevyn spann ford": {
+    "name": "Brevyn Spann-Ford",
+    "seasons": {
+      "2024": 17,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ryan flournoy": {
+    "name": "Ryan Flournoy",
+    "seasons": {
+      "2024": 11,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devontez walker": {
+    "name": "Devontez Walker",
+    "seasons": {
+      "2024": 9,
+      "2025": 12
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jacob cowing": {
+    "name": "Jacob Cowing",
+    "seasons": {
+      "2024": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler badie": {
+    "name": "Tyler Badie",
+    "seasons": {
+      "2024": 3,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2163
+  },
+  "hunter long": {
+    "name": "Hunter Long",
+    "seasons": {
+      "2024": 17,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1154
+  },
+  "kene nwangwu": {
+    "name": "Kene Nwangwu",
+    "seasons": {
+      "2024": 2,
+      "2025": 12
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jonathon brooks": {
+    "name": "Jonathon Brooks",
+    "seasons": {
+      "2024": 3
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "nikko remigio": {
+    "name": "Nikko Remigio",
+    "seasons": {
+      "2024": 5,
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2163
+  },
+  "tip reiman": {
+    "name": "Tip Reiman",
+    "seasons": {
+      "2024": 17,
+      "2025": 4
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1875
+  },
+  "xavier smith": {
+    "name": "Xavier Smith",
+    "seasons": {
+      "2024": 15,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rasheen ali": {
+    "name": "Rasheen Ali",
+    "seasons": {
+      "2024": 6,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1875
+  },
+  "cam grandy": {
+    "name": "Cam Grandy",
+    "seasons": {
+      "2024": 8,
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "malachi corley": {
+    "name": "Malachi Corley",
+    "seasons": {
+      "2024": 9,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "anthony gould": {
+    "name": "Anthony Gould",
+    "seasons": {
+      "2024": 8,
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mason kinsey": {
+    "name": "Mason Kinsey",
+    "seasons": {
+      "2024": 6,
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "marshawn lloyd": {
+    "name": "MarShawn Lloyd",
+    "seasons": {
+      "2024": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kyle allen": {
+    "name": "Kyle Allen",
+    "seasons": {
+      "2024": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chris collier": {
+    "name": "Chris Collier",
+    "seasons": {
+      "2024": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "george holani": {
+    "name": "George Holani",
+    "seasons": {
+      "2024": 5,
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh johnson": {
+    "name": "Josh Johnson",
+    "seasons": {
+      "2024": 6,
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kameron johnson": {
+    "name": "Kameron Johnson",
+    "seasons": {
+      "2024": 5,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1731
+  },
+  "chris oladokun": {
+    "name": "Chris Oladokun",
+    "seasons": {
+      "2024": 1,
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isaiah williams": {
+    "name": "Isaiah Williams",
+    "seasons": {
+      "2024": 8,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1587
+  },
+  "andrew beck": {
+    "name": "Andrew Beck",
+    "seasons": {
+      "2024": 4
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "british brooks": {
+    "name": "British Brooks",
+    "seasons": {
+      "2024": 5,
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2019
+  },
+  "zack kuntz": {
+    "name": "Zack Kuntz",
+    "seasons": {
+      "2024": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jake tonges": {
+    "name": "Jake Tonges",
+    "seasons": {
+      "2024": 16,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "laquon treadwell": {
+    "name": "Laquon Treadwell",
+    "seasons": {
+      "2024": 2
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brycen tremayne": {
+    "name": "Brycen Tremayne",
+    "seasons": {
+      "2024": 2,
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.2308
+  },
+  "carlos washington": {
+    "name": "Carlos Washington",
+    "seasons": {
+      "2024": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "roman wilson": {
+    "name": "Roman Wilson",
+    "seasons": {
+      "2024": 1,
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 2,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dareke young": {
+    "name": "Dareke Young",
+    "seasons": {
+      "2024": 14,
+      "2025": 9
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": true,
+    "injuryDiscount": 0.1587
+  },
+  "dylan laube": {
+    "name": "Dylan Laube",
+    "seasons": {
+      "2024": 10,
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ashton jeanty": {
+    "name": "Ashton Jeanty",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "treveyon henderson": {
+    "name": "TreVeyon Henderson",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tetairoa mcmillan": {
+    "name": "Tetairoa McMillan",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "emeka egbuka": {
+    "name": "Emeka Egbuka",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "rj harvey": {
+    "name": "RJ Harvey",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "harold fannin": {
+    "name": "Harold Fannin",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler warren": {
+    "name": "Tyler Warren",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "colston loveland": {
+    "name": "Colston Loveland",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaxson dart": {
+    "name": "Jaxson Dart",
+    "seasons": {
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cam ward": {
+    "name": "Cam Ward",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tyler shough": {
+    "name": "Tyler Shough",
+    "seasons": {
+      "2025": 11
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "quinshon judkins": {
+    "name": "Quinshon Judkins",
+    "seasons": {
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jacory croskey merritt": {
+    "name": "Jacory Croskey-Merritt",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kyle monangai": {
+    "name": "Kyle Monangai",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "woody marks": {
+    "name": "Woody Marks",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jj mccarthy": {
+    "name": "J.J. McCarthy",
+    "seasons": {
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "omarion hampton": {
+    "name": "Omarion Hampton",
+    "seasons": {
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "cam skattebo": {
+    "name": "Cam Skattebo",
+    "seasons": {
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jayden higgins": {
+    "name": "Jayden Higgins",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "shedeur sanders": {
+    "name": "Shedeur Sanders",
+    "seasons": {
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "oronde gadsden": {
+    "name": "Oronde Gadsden II",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "luther burden": {
+    "name": "Luther Burden",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "bhayshul tuten": {
+    "name": "Bhayshul Tuten",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "chimere dike": {
+    "name": "Chimere Dike",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "elic ayomanor": {
+    "name": "Elic Ayomanor",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tez johnson": {
+    "name": "Tez Johnson",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isaac teslaa": {
+    "name": "Isaac TeSlaa",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dylan sampson": {
+    "name": "Dylan Sampson",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tory horton": {
+    "name": "Tory Horton",
+    "seasons": {
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "gunnar helm": {
+    "name": "Gunnar Helm",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "ollie gordon": {
+    "name": "Ollie Gordon",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mason taylor": {
+    "name": "Mason Taylor",
+    "seasons": {
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "pat bryant": {
+    "name": "Pat Bryant",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "devin neal": {
+    "name": "Devin Neal",
+    "seasons": {
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaylin noel": {
+    "name": "Jaylin Noel",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "terrance ferguson": {
+    "name": "Terrance Ferguson",
+    "seasons": {
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "matthew golden": {
+    "name": "Matthew Golden",
+    "seasons": {
+      "2025": 14
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "malik davis": {
+    "name": "Malik Davis",
+    "seasons": {
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tre harris": {
+    "name": "Tre Harris",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kyle williams": {
+    "name": "Kyle Williams",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brashard smith": {
+    "name": "Brashard Smith",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "isaiah bond": {
+    "name": "Isaiah Bond",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jackson hawes": {
+    "name": "Jackson Hawes",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "travis hunter": {
+    "name": "Travis Hunter",
+    "seasons": {
+      "2025": 7
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaylin lane": {
+    "name": "Jaylin Lane",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "quinn ewers": {
+    "name": "Quinn Ewers",
+    "seasons": {
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "mitchell evans": {
+    "name": "Mitchell Evans",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "riley leonard": {
+    "name": "Riley Leonard",
+    "seasons": {
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "brady cook": {
+    "name": "Brady Cook",
+    "seasons": {
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "zavier scott": {
+    "name": "Zavier Scott",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jawhar jordan": {
+    "name": "Jawhar Jordan",
+    "seasons": {
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "elijah arroyo": {
+    "name": "Elijah Arroyo",
+    "seasons": {
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jack bech": {
+    "name": "Jack Bech",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jahdae walker": {
+    "name": "Jahdae Walker",
+    "seasons": {
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "theo wease": {
+    "name": "Theo Wease",
+    "seasons": {
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jaydon blue": {
+    "name": "Jaydon Blue",
+    "seasons": {
+      "2025": 5
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jimmy horn": {
+    "name": "Jimmy Horn",
+    "seasons": {
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "savion williams": {
+    "name": "Savion Williams",
+    "seasons": {
+      "2025": 12
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "lequint allen": {
+    "name": "LeQuint Allen",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "konata mumpfield": {
+    "name": "Konata Mumpfield",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "efton chism": {
+    "name": "Efton Chism",
+    "seasons": {
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "donte thornton": {
+    "name": "Dont'e Thornton",
+    "seasons": {
+      "2025": 15
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "keandre lambert smith": {
+    "name": "KeAndre Lambert-Smith",
+    "seasons": {
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "dj giddens": {
+    "name": "DJ Giddens",
+    "seasons": {
+      "2025": 9
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "michael bandy": {
+    "name": "Michael Bandy",
+    "seasons": {
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "darius cooper": {
+    "name": "Darius Cooper",
+    "seasons": {
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "trevor etienne": {
+    "name": "Trevor Etienne",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "phil mafah": {
+    "name": "Phil Mafah",
+    "seasons": {
+      "2025": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "kaleb johnson": {
+    "name": "Kaleb Johnson",
+    "seasons": {
+      "2025": 10
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "arian smith": {
+    "name": "Arian Smith",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tahj brooks": {
+    "name": "Tahj Brooks",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "gage larvadain": {
+    "name": "Gage Larvadain",
+    "seasons": {
+      "2025": 13
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "shane buechele": {
+    "name": "Shane Buechele",
+    "seasons": {
+      "2025": 1
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "tai felton": {
+    "name": "Tai Felton",
+    "seasons": {
+      "2025": 17
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "zaire mitchell paden": {
+    "name": "Zaire Mitchell-Paden",
+    "seasons": {
+      "2025": 8
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jelani woods": {
+    "name": "Jelani Woods",
+    "seasons": {
+      "2025": 4
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "jacob saylors": {
+    "name": "Jacob Saylors",
+    "seasons": {
+      "2025": 16
+    },
+    "established": true,
+    "hurtSeasons": 0,
+    "majorInjurySeason": false,
+    "flagged": false,
+    "injuryDiscount": 0
+  },
+  "josh williams": {
+    "name": "Josh Williams",
+    "seasons": {
+      "2025": 3
+    },
+    "established": false,
+    "hurtSeasons": 1,
+    "majorInjurySeason": true,
+    "flagged": false,
+    "injuryDiscount": 0
+  }
+}
