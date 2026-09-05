@@ -206,21 +206,29 @@ export function computeTierInfo({ activePlayerWithPAR, playersWithPAR, undrafted
   const activeTier = tierById.get(activePlayerWithPAR.id) ?? null;
 
   const undraftedAtPosition = undraftedPlayers.filter((p) => p.position === position);
-  const remainingInTier = undraftedAtPosition.filter((p) => tierById.get(p.id) === activeTier).length;
   const { stdDevs: dropoffStdDevs } = computeTierDropoff(undraftedAtPosition, positionStdDev(positionPool));
+
+  // Static tier-cliff marker, per direct request — same "lowest-ranked
+  // player before the tier changes" boundary the snake ranked list uses
+  // (see background.js's lastInTierIds), computed from the same
+  // value-sorted positionPool computeTiers already builds internally.
+  // Previously this compared against how many of the tier were still
+  // undrafted RIGHT NOW, which meant a tier with several genuine members
+  // still on the board never showed the cliff at all, even sitting right
+  // at its own visible boundary — not the "a drop is coming" signal this
+  // is meant to be. Guarded on activeTier !== null: a below-replacement
+  // player (par <= 0, excluded from positionPool entirely) has no real
+  // tier to be "last in."
+  const sortedPool = [...positionPool].sort((a, b) => b.par - a.par);
+  const activeIdx = sortedPool.findIndex((p) => p.id === activePlayerWithPAR.id);
+  const nextTier = activeIdx >= 0 && activeIdx + 1 < sortedPool.length ? tierById.get(sortedPool[activeIdx + 1].id) : undefined;
+  const isLastInTier = activeTier !== null && activeIdx >= 0 && activeTier !== nextTier;
 
   return {
     tier: activeTier,
     tierCount: new Set(tierById.values()).size,
-    remainingInTier,
-    // Guarded on activeTier !== null: a below-replacement player (par <= 0,
-    // excluded from tier computation entirely — see this function's own
-    // comment) has no real tier to be "last in." Without this guard,
-    // remainingInTier comes back 0 for such a player (nobody else shares a
-    // `null` tier either) and 0 <= 1 would otherwise mislabel them as
-    // "last in tier" — confirmed live against real data (a $-65 PAR waiver
-    // RB) before this guard was added.
-    isLastInTier: activeTier !== null && remainingInTier <= 1,
+    remainingInTier: undraftedAtPosition.filter((p) => tierById.get(p.id) === activeTier).length,
+    isLastInTier,
     dropoffStdDevs,
   };
 }
@@ -336,6 +344,33 @@ export function computeTierRemainingCounts(undraftedPlayers, tierById) {
     counts.set(key, (counts.get(key) || 0) + 1);
   }
   return counts;
+}
+
+// Tier-cliff underline: the lowest-ranked (by PAR, within its own position)
+// player in each tier bucket — a plain, static boundary check, not a
+// countdown. Per direct request: tiers are a fixed value-based grouping, so
+// which player sits at the bottom of one is a fixed fact too, independent
+// of who's actually been drafted — background.js's ensurePricing calls this
+// ONCE, over the full static pool (playersWithPAR, NOT undraftedPlayers),
+// right alongside the tier numbers themselves, never recomputed as the
+// draft happens (same discipline PAR and tierById already follow).
+export function computeLastInTierIds(allPlayers, tierById) {
+  const byPosition = new Map();
+  for (const p of allPlayers) {
+    if (!byPosition.has(p.position)) byPosition.set(p.position, []);
+    byPosition.get(p.position).push(p);
+  }
+  const lastInTierIds = new Set();
+  for (const pool of byPosition.values()) {
+    const sorted = [...pool].sort((a, b) => b.par - a.par);
+    for (let i = 0; i < sorted.length; i++) {
+      const tier = tierById.get(sorted[i].id);
+      if (tier === undefined) continue;
+      const nextTier = i + 1 < sorted.length ? tierById.get(sorted[i + 1].id) : undefined;
+      if (tier !== nextTier) lastInTierIds.add(sorted[i].id);
+    }
+  }
+  return lastInTierIds;
 }
 
 // "Draft Rank" tab: every team's cumulative PAR so far, real-time, ranked
