@@ -1,0 +1,9 @@
+{
+  "name": "draft-assistant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test extension/engine/scoring.test.js extension/engine/applyFactorToggles.test.js extension/engine/parsers/espn.test.js extension/engine/parsers/identity.test.js extension/engine/parsers/yahoo.test.js extension/engine/parsers/sleeper.test.js extension/engine/projections/parseCsv.test.js extension/engine/projections/fantasyProsLoader.test.js extension/engine/projections/leagueScoring.test.js extension/engine/projections/matchPlayer.test.js extension/engine/liveDraftState.test.js extension/engine/settingsConflict.test.js extension/engine/projections/layer1Adjustments.test.js extension/engine/projections/injuryAdjustments.test.js extension/engine/projections/historicalErrorAdjustments.test.js",
+    "package": "node scripts/package-extension.js"
+  }
+}

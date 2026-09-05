@@ -1,0 +1,266 @@
+[
+  {
+    "Player": "Younghoe Koo",
+    "Team": "ATL",
+    "FG": 33.1,
+    "FGA": 37.8,
+    "XPT": 47.8,
+    "FPTS": 146.9
+  },
+  {
+    "Player": "Justin Tucker",
+    "Team": "BAL",
+    "FG": 31.5,
+    "FGA": 35.5,
+    "XPT": 46.7,
+    "FPTS": 141.3
+  },
+  {
+    "Player": "Harrison Butker",
+    "Team": "KC",
+    "FG": 30.5,
+    "FGA": 34.5,
+    "XPT": 47.3,
+    "FPTS": 138.7
+  },
+  {
+    "Player": "Brandon Aubrey",
+    "Team": "DAL",
+    "FG": 31.9,
+    "FGA": 35.5,
+    "XPT": 42.7,
+    "FPTS": 138.5
+  },
+  {
+    "Player": "Jake Elliott",
+    "Team": "PHI",
+    "FG": 29.3,
+    "FGA": 32.8,
+    "XPT": 47.6,
+    "FPTS": 135.5
+  },
+  {
+    "Player": "Jason Myers",
+    "Team": "SEA",
+    "FG": 31.5,
+    "FGA": 36.6,
+    "XPT": 38.9,
+    "FPTS": 133.5
+  },
+  {
+    "Player": "Ka'imi Fairbairn",
+    "Team": "HOU",
+    "FG": 29.9,
+    "FGA": 33.9,
+    "XPT": 42.1,
+    "FPTS": 131.9
+  },
+  {
+    "Player": "Cameron Dicker",
+    "Team": "LAC",
+    "FG": 30.0,
+    "FGA": 32.9,
+    "XPT": 41.4,
+    "FPTS": 131.4
+  },
+  {
+    "Player": "Blake Grupe",
+    "Team": "NO",
+    "FG": 29.8,
+    "FGA": 34.9,
+    "XPT": 40.7,
+    "FPTS": 130.2
+  },
+  {
+    "Player": "Greg Zuerlein",
+    "Team": "NYJ",
+    "FG": 30.4,
+    "FGA": 34.8,
+    "XPT": 38.3,
+    "FPTS": 129.6
+  },
+  {
+    "Player": "Evan McPherson",
+    "Team": "CIN",
+    "FG": 27.8,
+    "FGA": 32.2,
+    "XPT": 45.4,
+    "FPTS": 128.7
+  },
+  {
+    "Player": "Tyler Bass",
+    "Team": "BUF",
+    "FG": 27.6,
+    "FGA": 33.8,
+    "XPT": 45.8,
+    "FPTS": 128.5
+  },
+  {
+    "Player": "Cairo Santos",
+    "Team": "CHI",
+    "FG": 30.0,
+    "FGA": 33.6,
+    "XPT": 38.2,
+    "FPTS": 128.1
+  },
+  {
+    "Player": "Jake Moody",
+    "Team": "SF",
+    "FG": 26.7,
+    "FGA": 31.5,
+    "XPT": 47.8,
+    "FPTS": 128.0
+  },
+  {
+    "Player": "Matt Gay",
+    "Team": "IND",
+    "FG": 29.5,
+    "FGA": 34.5,
+    "XPT": 39.2,
+    "FPTS": 127.6
+  },
+  {
+    "Player": "Jason Sanders",
+    "Team": "MIA",
+    "FG": 27.2,
+    "FGA": 32.2,
+    "XPT": 44.9,
+    "FPTS": 126.4
+  },
+  {
+    "Player": "Chase McLaughlin",
+    "Team": "TB",
+    "FG": 28.2,
+    "FGA": 32.2,
+    "XPT": 38.3,
+    "FPTS": 122.8
+  },
+  {
+    "Player": "Matt Prater",
+    "Team": "ARI",
+    "FG": 28.9,
+    "FGA": 33.6,
+    "XPT": 35.3,
+    "FPTS": 121.9
+  },
+  {
+    "Player": "Dustin Hopkins",
+    "Team": "CLE",
+    "FG": 28.3,
+    "FGA": 32.6,
+    "XPT": 37.0,
+    "FPTS": 121.8
+  },
+  {
+    "Player": "Cam Little",
+    "Team": "JAC",
+    "FG": 28.2,
+    "FGA": 33.9,
+    "XPT": 36.8,
+    "FPTS": 121.4
+  },
+  {
+    "Player": "Jake Bates",
+    "Team": "DET",
+    "FG": 25.6,
+    "FGA": 30.5,
+    "XPT": 44.2,
+    "FPTS": 120.9
+  },
+  {
+    "Player": "Joshua Karty",
+    "Team": "LAR",
+    "FG": 27.5,
+    "FGA": 33.5,
+    "XPT": 38.1,
+    "FPTS": 120.6
+  },
+  {
+    "Player": "Nick Folk",
+    "Team": "TEN",
+    "FG": 27.7,
+    "FGA": 30.6,
+    "XPT": 32.2,
+    "FPTS": 115.3
+  },
+  {
+    "Player": "Chris Boswell",
+    "Team": "PIT",
+    "FG": 27.5,
+    "FGA": 31.6,
+    "XPT": 32.3,
+    "FPTS": 114.8
+  },
+  {
+    "Player": "Wil Lutz",
+    "Team": "DEN",
+    "FG": 27.1,
+    "FGA": 32.3,
+    "XPT": 32.1,
+    "FPTS": 113.3
+  },
+  {
+    "Player": "Daniel Carlson",
+    "Team": "LV",
+    "FG": 26.9,
+    "FGA": 30.6,
+    "XPT": 31.8,
+    "FPTS": 112.6
+  },
+  {
+    "Player": "Will Reichard",
+    "Team": "MIN",
+    "FG": 25.6,
+    "FGA": 30.6,
+    "XPT": 31.8,
+    "FPTS": 108.4
+  },
+  {
+    "Player": "Eddy Pineiro",
+    "Team": "CAR",
+    "FG": 25.9,
+    "FGA": 30.6,
+    "XPT": 29.7,
+    "FPTS": 107.6
+  },
+  {
+    "Player": "Graham Gano",
+    "Team": "NYG",
+    "FG": 25.0,
+    "FGA": 30.0,
+    "XPT": 29.6,
+    "FPTS": 104.5
+  },
+  {
+    "Player": "Chad Ryland",
+    "Team": "NE",
+    "FG": 22.8,
+    "FGA": 29.3,
+    "XPT": 27.4,
+    "FPTS": 95.9
+  },
+  {
+    "Player": "Anders Carlson",
+    "Team": "GB",
+    "FG": 21.7,
+    "FGA": 27.2,
+    "XPT": 26.7,
+    "FPTS": 91.7
+  },
+  {
+    "Player": "Greg Joseph",
+    "Team": "GB",
+    "FG": 19.0,
+    "FGA": 28.0,
+    "XPT": 22.0,
+    "FPTS": 79.0
+  },
+  {
+    "Player": "Cade York",
+    "Team": "WAS",
+    "FG": 15.3,
+    "FGA": 19.3,
+    "XPT": 19.0,
+    "FPTS": 65.0
+  }
+]

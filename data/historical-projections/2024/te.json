@@ -1,0 +1,1199 @@
+[
+  {
+    "Player": "Travis Kelce",
+    "Team": "KC",
+    "RECEIVING REC": 89.5,
+    "RECEIVING YDS": 966.5,
+    "RECEIVING TDS": 7.5,
+    "MISC FL": 0.8,
+    "MISC FPTS": 140.9
+  },
+  {
+    "Player": "Sam LaPorta",
+    "Team": "DET",
+    "RECEIVING REC": 86.3,
+    "RECEIVING YDS": 893.6,
+    "RECEIVING TDS": 7.7,
+    "MISC FL": 0.4,
+    "MISC FPTS": 134.9
+  },
+  {
+    "Player": "Mark Andrews",
+    "Team": "BAL",
+    "RECEIVING REC": 71.9,
+    "RECEIVING YDS": 869.8,
+    "RECEIVING TDS": 7.9,
+    "MISC FL": 0.5,
+    "MISC FPTS": 133.4
+  },
+  {
+    "Player": "George Kittle",
+    "Team": "SF",
+    "RECEIVING REC": 65.4,
+    "RECEIVING YDS": 881.2,
+    "RECEIVING TDS": 6.0,
+    "MISC FL": 0.4,
+    "MISC FPTS": 123.4
+  },
+  {
+    "Player": "Kyle Pitts",
+    "Team": "ATL",
+    "RECEIVING REC": 67.8,
+    "RECEIVING YDS": 875.5,
+    "RECEIVING TDS": 5.2,
+    "MISC FL": 0.4,
+    "MISC FPTS": 117.7
+  },
+  {
+    "Player": "Trey McBride",
+    "Team": "ARI",
+    "RECEIVING REC": 86.0,
+    "RECEIVING YDS": 882.0,
+    "RECEIVING TDS": 5.1,
+    "MISC FL": 0.5,
+    "MISC FPTS": 117.5
+  },
+  {
+    "Player": "Dalton Kincaid",
+    "Team": "BUF",
+    "RECEIVING REC": 82.9,
+    "RECEIVING YDS": 828.2,
+    "RECEIVING TDS": 5.4,
+    "MISC FL": 0.8,
+    "MISC FPTS": 113.6
+  },
+  {
+    "Player": "Jake Ferguson",
+    "Team": "DAL",
+    "RECEIVING REC": 70.7,
+    "RECEIVING YDS": 736.2,
+    "RECEIVING TDS": 5.9,
+    "MISC FL": 0.4,
+    "MISC FPTS": 108.1
+  },
+  {
+    "Player": "David Njoku",
+    "Team": "CLE",
+    "RECEIVING REC": 69.9,
+    "RECEIVING YDS": 771.9,
+    "RECEIVING TDS": 5.4,
+    "MISC FL": 1.2,
+    "MISC FPTS": 107.4
+  },
+  {
+    "Player": "Evan Engram",
+    "Team": "JAC",
+    "RECEIVING REC": 85.4,
+    "RECEIVING YDS": 787.2,
+    "RECEIVING TDS": 4.4,
+    "MISC FL": 0.9,
+    "MISC FPTS": 103.0
+  },
+  {
+    "Player": "Brock Bowers",
+    "Team": "LV",
+    "RECEIVING REC": 62.8,
+    "RECEIVING YDS": 696.7,
+    "RECEIVING TDS": 4.6,
+    "MISC FL": 1.1,
+    "MISC FPTS": 95.1
+  },
+  {
+    "Player": "Dallas Goedert",
+    "Team": "PHI",
+    "RECEIVING REC": 65.4,
+    "RECEIVING YDS": 690.7,
+    "RECEIVING TDS": 4.0,
+    "MISC FL": 0.5,
+    "MISC FPTS": 92.3
+  },
+  {
+    "Player": "Dalton Schultz",
+    "Team": "HOU",
+    "RECEIVING REC": 57.3,
+    "RECEIVING YDS": 610.9,
+    "RECEIVING TDS": 4.9,
+    "MISC FL": 0.8,
+    "MISC FPTS": 88.8
+  },
+  {
+    "Player": "Pat Freiermuth",
+    "Team": "PIT",
+    "RECEIVING REC": 58.1,
+    "RECEIVING YDS": 605.6,
+    "RECEIVING TDS": 4.4,
+    "MISC FL": 0.5,
+    "MISC FPTS": 86.0
+  },
+  {
+    "Player": "Taysom Hill",
+    "Team": "NO",
+    "RECEIVING REC": 27.5,
+    "RECEIVING YDS": 261.5,
+    "RECEIVING TDS": 2.0,
+    "MISC FL": 0.3,
+    "MISC FPTS": 81.6
+  },
+  {
+    "Player": "T.J. Hockenson",
+    "Team": "MIN",
+    "RECEIVING REC": 59.7,
+    "RECEIVING YDS": 595.1,
+    "RECEIVING TDS": 3.3,
+    "MISC FL": 0.8,
+    "MISC FPTS": 77.8
+  },
+  {
+    "Player": "Hunter Henry",
+    "Team": "NE",
+    "RECEIVING REC": 47.7,
+    "RECEIVING YDS": 493.9,
+    "RECEIVING TDS": 4.2,
+    "MISC FL": 0.1,
+    "MISC FPTS": 74.6
+  },
+  {
+    "Player": "Tyler Conklin",
+    "Team": "NYJ",
+    "RECEIVING REC": 54.0,
+    "RECEIVING YDS": 539.0,
+    "RECEIVING TDS": 3.4,
+    "MISC FL": 0.1,
+    "MISC FPTS": 73.9
+  },
+  {
+    "Player": "Cole Kmet",
+    "Team": "CHI",
+    "RECEIVING REC": 50.1,
+    "RECEIVING YDS": 495.4,
+    "RECEIVING TDS": 4.1,
+    "MISC FL": 0.4,
+    "MISC FPTS": 73.5
+  },
+  {
+    "Player": "Cade Otton",
+    "Team": "TB",
+    "RECEIVING REC": 49.2,
+    "RECEIVING YDS": 489.4,
+    "RECEIVING TDS": 3.7,
+    "MISC FL": 0.4,
+    "MISC FPTS": 70.5
+  },
+  {
+    "Player": "Luke Musgrave",
+    "Team": "GB",
+    "RECEIVING REC": 46.7,
+    "RECEIVING YDS": 489.4,
+    "RECEIVING TDS": 3.4,
+    "MISC FL": 0.1,
+    "MISC FPTS": 69.1
+  },
+  {
+    "Player": "Juwan Johnson",
+    "Team": "NO",
+    "RECEIVING REC": 40.4,
+    "RECEIVING YDS": 441.3,
+    "RECEIVING TDS": 4.1,
+    "MISC FL": 0.1,
+    "MISC FPTS": 68.8
+  },
+  {
+    "Player": "Chigoziem Okonkwo",
+    "Team": "TEN",
+    "RECEIVING REC": 48.2,
+    "RECEIVING YDS": 513.5,
+    "RECEIVING TDS": 2.7,
+    "MISC FL": 0.4,
+    "MISC FPTS": 66.7
+  },
+  {
+    "Player": "Noah Fant",
+    "Team": "SEA",
+    "RECEIVING REC": 45.9,
+    "RECEIVING YDS": 489.8,
+    "RECEIVING TDS": 2.8,
+    "MISC FL": 0.1,
+    "MISC FPTS": 65.4
+  },
+  {
+    "Player": "Isaiah Likely",
+    "Team": "BAL",
+    "RECEIVING REC": 34.2,
+    "RECEIVING YDS": 411.5,
+    "RECEIVING TDS": 3.9,
+    "MISC FL": 0.1,
+    "MISC FPTS": 64.4
+  },
+  {
+    "Player": "Jonnu Smith",
+    "Team": "MIA",
+    "RECEIVING REC": 37.8,
+    "RECEIVING YDS": 415.8,
+    "RECEIVING TDS": 2.9,
+    "MISC FL": 0.4,
+    "MISC FPTS": 57.8
+  },
+  {
+    "Player": "Hayden Hurst",
+    "Team": "LAC",
+    "RECEIVING REC": 40.5,
+    "RECEIVING YDS": 390.7,
+    "RECEIVING TDS": 2.9,
+    "MISC FL": 0.1,
+    "MISC FPTS": 56.0
+  },
+  {
+    "Player": "Mike Gesicki",
+    "Team": "CIN",
+    "RECEIVING REC": 36.4,
+    "RECEIVING YDS": 356.9,
+    "RECEIVING TDS": 3.1,
+    "MISC FL": 0.1,
+    "MISC FPTS": 54.5
+  },
+  {
+    "Player": "Zach Ertz",
+    "Team": "WAS",
+    "RECEIVING REC": 38.4,
+    "RECEIVING YDS": 356.0,
+    "RECEIVING TDS": 2.7,
+    "MISC FL": 0.1,
+    "MISC FPTS": 51.7
+  },
+  {
+    "Player": "Ben Sinnott",
+    "Team": "WAS",
+    "RECEIVING REC": 36.9,
+    "RECEIVING YDS": 378.3,
+    "RECEIVING TDS": 2.5,
+    "MISC FL": 0.4,
+    "MISC FPTS": 51.7
+  },
+  {
+    "Player": "Tucker Kraft",
+    "Team": "GB",
+    "RECEIVING REC": 33.9,
+    "RECEIVING YDS": 354.2,
+    "RECEIVING TDS": 2.6,
+    "MISC FL": 0.1,
+    "MISC FPTS": 50.7
+  },
+  {
+    "Player": "Dawson Knox",
+    "Team": "BUF",
+    "RECEIVING REC": 28.3,
+    "RECEIVING YDS": 297.4,
+    "RECEIVING TDS": 3.3,
+    "MISC FL": 0.1,
+    "MISC FPTS": 49.3
+  },
+  {
+    "Player": "Greg Dulcich",
+    "Team": "DEN",
+    "RECEIVING REC": 33.8,
+    "RECEIVING YDS": 375.6,
+    "RECEIVING TDS": 1.9,
+    "MISC FL": 0.1,
+    "MISC FPTS": 49.0
+  },
+  {
+    "Player": "Tyler Higbee",
+    "Team": "LAR",
+    "RECEIVING REC": 33.9,
+    "RECEIVING YDS": 347.5,
+    "RECEIVING TDS": 2.1,
+    "MISC FL": 0.1,
+    "MISC FPTS": 47.2
+  },
+  {
+    "Player": "Colby Parkinson",
+    "Team": "LAR",
+    "RECEIVING REC": 29.7,
+    "RECEIVING YDS": 314.2,
+    "RECEIVING TDS": 2.5,
+    "MISC FL": 0.1,
+    "MISC FPTS": 46.0
+  },
+  {
+    "Player": "Gerald Everett",
+    "Team": "CHI",
+    "RECEIVING REC": 32.9,
+    "RECEIVING YDS": 305.7,
+    "RECEIVING TDS": 2.6,
+    "MISC FL": 0.1,
+    "MISC FPTS": 45.9
+  },
+  {
+    "Player": "Ja'Tavion Sanders",
+    "Team": "CAR",
+    "RECEIVING REC": 29.9,
+    "RECEIVING YDS": 311.2,
+    "RECEIVING TDS": 2.3,
+    "MISC FL": 0.4,
+    "MISC FPTS": 44.2
+  },
+  {
+    "Player": "Michael Mayer",
+    "Team": "LV",
+    "RECEIVING REC": 29.6,
+    "RECEIVING YDS": 317.4,
+    "RECEIVING TDS": 2.0,
+    "MISC FL": 0.1,
+    "MISC FPTS": 43.6
+  },
+  {
+    "Player": "Daniel Bellinger",
+    "Team": "NYG",
+    "RECEIVING REC": 32.7,
+    "RECEIVING YDS": 311.6,
+    "RECEIVING TDS": 1.9,
+    "MISC FL": 0.1,
+    "MISC FPTS": 42.7
+  },
+  {
+    "Player": "Theo Johnson",
+    "Team": "NYG",
+    "RECEIVING REC": 32.3,
+    "RECEIVING YDS": 312.9,
+    "RECEIVING TDS": 2.0,
+    "MISC FL": 0.6,
+    "MISC FPTS": 42.1
+  },
+  {
+    "Player": "Tommy Tremble",
+    "Team": "CAR",
+    "RECEIVING REC": 27.5,
+    "RECEIVING YDS": 261.4,
+    "RECEIVING TDS": 2.5,
+    "MISC FL": 0.1,
+    "MISC FPTS": 40.7
+  },
+  {
+    "Player": "Kylen Granson",
+    "Team": "IND",
+    "RECEIVING REC": 27.0,
+    "RECEIVING YDS": 292.6,
+    "RECEIVING TDS": 1.8,
+    "MISC FL": 0.1,
+    "MISC FPTS": 39.9
+  },
+  {
+    "Player": "Jaheim Bell",
+    "Team": "NE",
+    "RECEIVING REC": 23.0,
+    "RECEIVING YDS": 253.0,
+    "RECEIVING TDS": 2.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 37.3
+  },
+  {
+    "Player": "Noah Gray",
+    "Team": "KC",
+    "RECEIVING REC": 22.6,
+    "RECEIVING YDS": 237.0,
+    "RECEIVING TDS": 1.7,
+    "MISC FL": 0.1,
+    "MISC FPTS": 34.0
+  },
+  {
+    "Player": "Will Dissly",
+    "Team": "LAC",
+    "RECEIVING REC": 23.3,
+    "RECEIVING YDS": 225.6,
+    "RECEIVING TDS": 1.5,
+    "MISC FL": 0.1,
+    "MISC FPTS": 31.4
+  },
+  {
+    "Player": "Mo Alie-Cox",
+    "Team": "IND",
+    "RECEIVING REC": 16.5,
+    "RECEIVING YDS": 186.1,
+    "RECEIVING TDS": 2.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 30.5
+  },
+  {
+    "Player": "Tanner Hudson",
+    "Team": "CIN",
+    "RECEIVING REC": 20.3,
+    "RECEIVING YDS": 196.0,
+    "RECEIVING TDS": 1.5,
+    "MISC FL": 0.0,
+    "MISC FPTS": 28.8
+  },
+  {
+    "Player": "Brevin Jordan",
+    "Team": "HOU",
+    "RECEIVING REC": 14.6,
+    "RECEIVING YDS": 183.5,
+    "RECEIVING TDS": 1.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 28.5
+  },
+  {
+    "Player": "Donald Parham Jr.",
+    "Team": "LAC",
+    "RECEIVING REC": 15.1,
+    "RECEIVING YDS": 158.3,
+    "RECEIVING TDS": 2.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 28.3
+  },
+  {
+    "Player": "Robert Tonyan",
+    "Team": "MIN",
+    "RECEIVING REC": 20.1,
+    "RECEIVING YDS": 189.8,
+    "RECEIVING TDS": 1.4,
+    "MISC FL": 0.0,
+    "MISC FPTS": 27.2
+  },
+  {
+    "Player": "Durham Smythe",
+    "Team": "MIA",
+    "RECEIVING REC": 19.5,
+    "RECEIVING YDS": 190.1,
+    "RECEIVING TDS": 1.3,
+    "MISC FL": 0.0,
+    "MISC FPTS": 26.6
+  },
+  {
+    "Player": "Adam Trautman",
+    "Team": "DEN",
+    "RECEIVING REC": 17.3,
+    "RECEIVING YDS": 167.8,
+    "RECEIVING TDS": 1.5,
+    "MISC FL": 0.0,
+    "MISC FPTS": 25.9
+  },
+  {
+    "Player": "Jelani Woods",
+    "Team": "IND",
+    "RECEIVING REC": 14.6,
+    "RECEIVING YDS": 178.3,
+    "RECEIVING TDS": 1.3,
+    "MISC FL": 0.0,
+    "MISC FPTS": 25.5
+  },
+  {
+    "Player": "Brock Wright",
+    "Team": "DET",
+    "RECEIVING REC": 15.7,
+    "RECEIVING YDS": 149.5,
+    "RECEIVING TDS": 1.5,
+    "MISC FL": 0.1,
+    "MISC FPTS": 24.0
+  },
+  {
+    "Player": "Austin Hooper",
+    "Team": "NE",
+    "RECEIVING REC": 19.6,
+    "RECEIVING YDS": 185.3,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.0,
+    "MISC FPTS": 24.0
+  },
+  {
+    "Player": "Elijah Higgins",
+    "Team": "ARI",
+    "RECEIVING REC": 16.3,
+    "RECEIVING YDS": 177.8,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 23.6
+  },
+  {
+    "Player": "Jeremy Ruckert",
+    "Team": "NYJ",
+    "RECEIVING REC": 16.2,
+    "RECEIVING YDS": 161.2,
+    "RECEIVING TDS": 1.2,
+    "MISC FL": 0.1,
+    "MISC FPTS": 23.2
+  },
+  {
+    "Player": "Josh Oliver",
+    "Team": "MIN",
+    "RECEIVING REC": 16.1,
+    "RECEIVING YDS": 156.6,
+    "RECEIVING TDS": 1.2,
+    "MISC FL": 0.4,
+    "MISC FPTS": 22.2
+  },
+  {
+    "Player": "Johnny Mundt",
+    "Team": "MIN",
+    "RECEIVING REC": 16.7,
+    "RECEIVING YDS": 160.7,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 21.0
+  },
+  {
+    "Player": "Logan Thomas",
+    "Team": "SF",
+    "RECEIVING REC": 14.0,
+    "RECEIVING YDS": 143.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 20.3
+  },
+  {
+    "Player": "Foster Moreau",
+    "Team": "NO",
+    "RECEIVING REC": 12.5,
+    "RECEIVING YDS": 139.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 20.0
+  },
+  {
+    "Player": "Davis Allen",
+    "Team": "LAR",
+    "RECEIVING REC": 13.1,
+    "RECEIVING YDS": 134.4,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 19.5
+  },
+  {
+    "Player": "Josh Whyle",
+    "Team": "TEN",
+    "RECEIVING REC": 12.5,
+    "RECEIVING YDS": 127.9,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 19.2
+  },
+  {
+    "Player": "Pharaoh Brown",
+    "Team": "SEA",
+    "RECEIVING REC": 12.0,
+    "RECEIVING YDS": 131.9,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.7
+  },
+  {
+    "Player": "Will Mallory",
+    "Team": "IND",
+    "RECEIVING REC": 12.3,
+    "RECEIVING YDS": 131.0,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.6
+  },
+  {
+    "Player": "Devin Culp",
+    "Team": "TB",
+    "RECEIVING REC": 12.0,
+    "RECEIVING YDS": 124.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.4
+  },
+  {
+    "Player": "Dallin Holker",
+    "Team": "NO",
+    "RECEIVING REC": 12.0,
+    "RECEIVING YDS": 123.5,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.4
+  },
+  {
+    "Player": "Tanner McLachlan",
+    "Team": "CIN",
+    "RECEIVING REC": 12.0,
+    "RECEIVING YDS": 123.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.3
+  },
+  {
+    "Player": "Brayden Willis",
+    "Team": "SF",
+    "RECEIVING REC": 10.0,
+    "RECEIVING YDS": 121.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.1
+  },
+  {
+    "Player": "Connor Heyward",
+    "Team": "PIT",
+    "RECEIVING REC": 15.3,
+    "RECEIVING YDS": 137.6,
+    "RECEIVING TDS": 0.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 18.0
+  },
+  {
+    "Player": "Peyton Hendershot",
+    "Team": "DAL",
+    "RECEIVING REC": 11.6,
+    "RECEIVING YDS": 117.4,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 17.7
+  },
+  {
+    "Player": "John FitzPatrick",
+    "Team": "ATL",
+    "RECEIVING REC": 10.0,
+    "RECEIVING YDS": 117.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 17.7
+  },
+  {
+    "Player": "Drew Ogletree",
+    "Team": "IND",
+    "RECEIVING REC": 10.1,
+    "RECEIVING YDS": 125.7,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.1,
+    "MISC FPTS": 17.6
+  },
+  {
+    "Player": "Jack Stoll",
+    "Team": "NYG",
+    "RECEIVING REC": 13.1,
+    "RECEIVING YDS": 121.9,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.0,
+    "MISC FPTS": 17.6
+  },
+  {
+    "Player": "Luke Schoonmaker",
+    "Team": "DAL",
+    "RECEIVING REC": 10.8,
+    "RECEIVING YDS": 110.9,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 17.5
+  },
+  {
+    "Player": "AJ Barner",
+    "Team": "SEA",
+    "RECEIVING REC": 11.9,
+    "RECEIVING YDS": 123.7,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 17.4
+  },
+  {
+    "Player": "Darnell Washington",
+    "Team": "PIT",
+    "RECEIVING REC": 12.0,
+    "RECEIVING YDS": 119.7,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.8
+  },
+  {
+    "Player": "Teagan Quitoriano",
+    "Team": "HOU",
+    "RECEIVING REC": 6.5,
+    "RECEIVING YDS": 100.6,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.6
+  },
+  {
+    "Player": "Cameron Latu",
+    "Team": "SF",
+    "RECEIVING REC": 11.5,
+    "RECEIVING YDS": 104.5,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.5
+  },
+  {
+    "Player": "Travis Vokolek",
+    "Team": "ARI",
+    "RECEIVING REC": 11.0,
+    "RECEIVING YDS": 102.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.2
+  },
+  {
+    "Player": "Ian Thomas",
+    "Team": "CAR",
+    "RECEIVING REC": 12.6,
+    "RECEIVING YDS": 128.7,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.2
+  },
+  {
+    "Player": "Irv Smith Jr.",
+    "Team": "KC",
+    "RECEIVING REC": 11.4,
+    "RECEIVING YDS": 102.9,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 16.2
+  },
+  {
+    "Player": "Stone Smartt",
+    "Team": "LAC",
+    "RECEIVING REC": 9.5,
+    "RECEIVING YDS": 108.8,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.8
+  },
+  {
+    "Player": "Jordan Akins",
+    "Team": "CLE",
+    "RECEIVING REC": 10.4,
+    "RECEIVING YDS": 103.6,
+    "RECEIVING TDS": 0.9,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.5
+  },
+  {
+    "Player": "Brenton Strange",
+    "Team": "JAC",
+    "RECEIVING REC": 9.7,
+    "RECEIVING YDS": 92.1,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.2
+  },
+  {
+    "Player": "Cade Stover",
+    "Team": "HOU",
+    "RECEIVING REC": 9.9,
+    "RECEIVING YDS": 105.7,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.2
+  },
+  {
+    "Player": "La'Michael Pettway",
+    "Team": "NE",
+    "RECEIVING REC": 10.0,
+    "RECEIVING YDS": 91.0,
+    "RECEIVING TDS": 1.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.1
+  },
+  {
+    "Player": "Erick All Jr.",
+    "Team": "CIN",
+    "RECEIVING REC": 10.3,
+    "RECEIVING YDS": 103.5,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 15.1
+  },
+  {
+    "Player": "Tip Reiman",
+    "Team": "ARI",
+    "RECEIVING REC": 10.2,
+    "RECEIVING YDS": 99.2,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 14.7
+  },
+  {
+    "Player": "Jared Wiley",
+    "Team": "KC",
+    "RECEIVING REC": 9.6,
+    "RECEIVING YDS": 98.5,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 14.6
+  },
+  {
+    "Player": "Lucas Krull",
+    "Team": "DEN",
+    "RECEIVING REC": 9.6,
+    "RECEIVING YDS": 101.6,
+    "RECEIVING TDS": 0.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 14.4
+  },
+  {
+    "Player": "Drew Sample",
+    "Team": "CIN",
+    "RECEIVING REC": 10.5,
+    "RECEIVING YDS": 94.3,
+    "RECEIVING TDS": 0.8,
+    "MISC FL": 0.0,
+    "MISC FPTS": 14.0
+  },
+  {
+    "Player": "Payne Durham",
+    "Team": "TB",
+    "RECEIVING REC": 9.2,
+    "RECEIVING YDS": 96.7,
+    "RECEIVING TDS": 0.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 14.0
+  },
+  {
+    "Player": "Quintin Morris",
+    "Team": "BUF",
+    "RECEIVING REC": 7.0,
+    "RECEIVING YDS": 74.8,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 13.8
+  },
+  {
+    "Player": "MyCole Pruitt",
+    "Team": "PIT",
+    "RECEIVING REC": 6.2,
+    "RECEIVING YDS": 67.2,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 13.6
+  },
+  {
+    "Player": "James Mitchell",
+    "Team": "DET",
+    "RECEIVING REC": 8.0,
+    "RECEIVING YDS": 83.3,
+    "RECEIVING TDS": 0.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 12.4
+  },
+  {
+    "Player": "Ross Dwelley",
+    "Team": "ATL",
+    "RECEIVING REC": 6.0,
+    "RECEIVING YDS": 83.7,
+    "RECEIVING TDS": 0.7,
+    "MISC FL": 0.0,
+    "MISC FPTS": 12.3
+  },
+  {
+    "Player": "Ben Sims",
+    "Team": "GB",
+    "RECEIVING REC": 6.5,
+    "RECEIVING YDS": 56.5,
+    "RECEIVING TDS": 1.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 12.2
+  },
+  {
+    "Player": "Miller Forristall",
+    "Team": "LAR",
+    "RECEIVING REC": 7.5,
+    "RECEIVING YDS": 78.5,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 11.6
+  },
+  {
+    "Player": "Harrison Bryant",
+    "Team": "LV",
+    "RECEIVING REC": 7.7,
+    "RECEIVING YDS": 76.5,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 11.4
+  },
+  {
+    "Player": "Armani Rogers",
+    "Team": "PHI",
+    "RECEIVING REC": 6.5,
+    "RECEIVING YDS": 76.6,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 11.1
+  },
+  {
+    "Player": "Luke Farrell",
+    "Team": "JAC",
+    "RECEIVING REC": 7.4,
+    "RECEIVING YDS": 75.0,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 10.8
+  },
+  {
+    "Player": "Nick Vannett",
+    "Team": "TEN",
+    "RECEIVING REC": 6.3,
+    "RECEIVING YDS": 69.9,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 10.5
+  },
+  {
+    "Player": "Cole Turner",
+    "Team": "WAS",
+    "RECEIVING REC": 6.0,
+    "RECEIVING YDS": 68.9,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 10.4
+  },
+  {
+    "Player": "Eric Saubert",
+    "Team": "SF",
+    "RECEIVING REC": 8.5,
+    "RECEIVING YDS": 73.0,
+    "RECEIVING TDS": 0.5,
+    "MISC FL": 0.0,
+    "MISC FPTS": 10.3
+  },
+  {
+    "Player": "John Bates",
+    "Team": "WAS",
+    "RECEIVING REC": 8.1,
+    "RECEIVING YDS": 77.0,
+    "RECEIVING TDS": 0.4,
+    "MISC FL": 0.0,
+    "MISC FPTS": 10.1
+  },
+  {
+    "Player": "Hunter Long",
+    "Team": "LAR",
+    "RECEIVING REC": 5.4,
+    "RECEIVING YDS": 55.3,
+    "RECEIVING TDS": 0.6,
+    "MISC FL": 0.0,
+    "MISC FPTS": 9.0
+  },
+  {
+    "Player": "Lawrence Cager",
+    "Team": "NYG",
+    "RECEIVING REC": 7.6,
+    "RECEIVING YDS": 66.3,
+    "RECEIVING TDS": 0.4,
+    "MISC FL": 0.0,
+    "MISC FPTS": 8.7
+  },
+  {
+    "Player": "Josiah Deguara",
+    "Team": "JAC",
+    "RECEIVING REC": 7.1,
+    "RECEIVING YDS": 60.9,
+    "RECEIVING TDS": 0.4,
+    "MISC FL": 0.0,
+    "MISC FPTS": 8.6
+  },
+  {
+    "Player": "Charlie Kolar",
+    "Team": "BAL",
+    "RECEIVING REC": 5.4,
+    "RECEIVING YDS": 58.9,
+    "RECEIVING TDS": 0.4,
+    "MISC FL": 0.0,
+    "MISC FPTS": 8.3
+  },
+  {
+    "Player": "Ko Kieft",
+    "Team": "TB",
+    "RECEIVING REC": 5.6,
+    "RECEIVING YDS": 56.5,
+    "RECEIVING TDS": 0.5,
+    "MISC FL": 0.1,
+    "MISC FPTS": 8.3
+  },
+  {
+    "Player": "Charlie Woerner",
+    "Team": "ATL",
+    "RECEIVING REC": 8.1,
+    "RECEIVING YDS": 62.7,
+    "RECEIVING TDS": 0.3,
+    "MISC FL": 0.0,
+    "MISC FPTS": 8.2
+  },
+  {
+    "Player": "Grant Calcaterra",
+    "Team": "PHI",
+    "RECEIVING REC": 5.4,
+    "RECEIVING YDS": 53.0,
+    "RECEIVING TDS": 0.4,
+    "MISC FL": 0.1,
+    "MISC FPTS": 7.7
+  },
+  {
+    "Player": "John Stephens Jr.",
+    "Team": "DAL",
+    "RECEIVING REC": 4.0,
+    "RECEIVING YDS": 41.0,
+    "RECEIVING TDS": 0.3,
+    "MISC FL": 0.0,
+    "MISC FPTS": 6.1
+  },
+  {
+    "Player": "Kenny Yeboah",
+    "Team": "NYJ",
+    "RECEIVING REC": 3.8,
+    "RECEIVING YDS": 37.0,
+    "RECEIVING TDS": 0.3,
+    "MISC FL": 0.0,
+    "MISC FPTS": 5.4
+  },
+  {
+    "Player": "Dalton Keene",
+    "Team": "HOU",
+    "RECEIVING REC": 2.0,
+    "RECEIVING YDS": 21.2,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.1
+  },
+  {
+    "Player": "Tre' McKitty",
+    "Team": "BUF",
+    "RECEIVING REC": 2.1,
+    "RECEIVING YDS": 20.4,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.1
+  },
+  {
+    "Player": "Shane Zylstra",
+    "Team": "DET",
+    "RECEIVING REC": 2.0,
+    "RECEIVING YDS": 20.0,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.0
+  },
+  {
+    "Player": "Tyler Davis",
+    "Team": "GB",
+    "RECEIVING REC": 2.0,
+    "RECEIVING YDS": 19.9,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.0
+  },
+  {
+    "Player": "Jody Fortson Jr.",
+    "Team": "MIA",
+    "RECEIVING REC": 2.1,
+    "RECEIVING YDS": 19.7,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.0
+  },
+  {
+    "Player": "Tommy Hudson",
+    "Team": "NO",
+    "RECEIVING REC": 2.0,
+    "RECEIVING YDS": 19.6,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 3.0
+  },
+  {
+    "Player": "Julian Hill",
+    "Team": "MIA",
+    "RECEIVING REC": 2.1,
+    "RECEIVING YDS": 19.2,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.9
+  },
+  {
+    "Player": "Brady Russell",
+    "Team": "SEA",
+    "RECEIVING REC": 2.0,
+    "RECEIVING YDS": 19.0,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.9
+  },
+  {
+    "Player": "Zack Kuntz",
+    "Team": "NYJ",
+    "RECEIVING REC": 1.9,
+    "RECEIVING YDS": 18.2,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.8
+  },
+  {
+    "Player": "Albert Okwuegbunam Jr.",
+    "Team": "PHI",
+    "RECEIVING REC": 1.9,
+    "RECEIVING YDS": 17.9,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.8
+  },
+  {
+    "Player": "Eric Tomlinson",
+    "Team": "IND",
+    "RECEIVING REC": 1.8,
+    "RECEIVING YDS": 17.7,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.8
+  },
+  {
+    "Player": "Cole Fotheringham",
+    "Team": "LV",
+    "RECEIVING REC": 1.7,
+    "RECEIVING YDS": 16.8,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.7
+  },
+  {
+    "Player": "Zach Gentry",
+    "Team": "LV",
+    "RECEIVING REC": 1.7,
+    "RECEIVING YDS": 15.9,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.6
+  },
+  {
+    "Player": "Rodney Williams",
+    "Team": "PIT",
+    "RECEIVING REC": 1.7,
+    "RECEIVING YDS": 15.8,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.6
+  },
+  {
+    "Player": "Mitchell Wilcox",
+    "Team": "NE",
+    "RECEIVING REC": 3.4,
+    "RECEIVING YDS": 24.3,
+    "RECEIVING TDS": 0.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.6
+  },
+  {
+    "Player": "Nate Adkins",
+    "Team": "DEN",
+    "RECEIVING REC": 1.7,
+    "RECEIVING YDS": 15.8,
+    "RECEIVING TDS": 0.2,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.5
+  },
+  {
+    "Player": "Chris Manhertz",
+    "Team": "NYG",
+    "RECEIVING REC": 1.9,
+    "RECEIVING YDS": 16.8,
+    "RECEIVING TDS": 0.1,
+    "MISC FL": 0.0,
+    "MISC FPTS": 2.4
+  },
+  {
+    "Player": "Anthony Firkser",
+    "Team": "NYJ",
+    "RECEIVING REC": 0.2,
+    "RECEIVING YDS": 2.2,
+    "RECEIVING TDS": 0.0,
+    "MISC FL": 0.0,
+    "MISC FPTS": 0.3
+  }
+]
