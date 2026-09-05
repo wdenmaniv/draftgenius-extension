@@ -8,9 +8,12 @@
 //
 // Usage: node scripts/package-extension.js [output-path]
 // Default output: dist/draftgenius-extension.zip
-// After running, copy the output into "DraftGenius Website"/public/downloads/
-// (the website's own repo) — that copy step is manual for now, same category
-// as other cross-repo manual steps in this project (see draftgenius's plan).
+// .github/workflows/release-extension.yml runs this on every push to main
+// that touches extension/, then attaches the output to a GitHub Release —
+// the website's download button links straight at that release's "latest"
+// asset, so there's no manual copy step and no cross-repo deploy involved.
+// Run this manually only if you want a local zip to test "load unpacked"
+// against outside of that CI flow.
 //
 // Stages extension/ into a temp dir renamed to "draftgenius-extension"
 // before zipping, so unzipping the download produces a
@@ -46,4 +49,4 @@ execFileSync("zip", ["-r", outPath, "draftgenius-extension"], {
 rmSync(stageRoot, { recursive: true, force: true });
 
 console.log(`\nWrote ${path.relative(ROOT, outPath)}`);
-console.log("Next: copy this file to draftgenius/public/downloads/draftgenius-extension.zip");
+console.log("Push to main to have CI attach this to a GitHub Release automatically, or load it unpacked locally to test.");

@@ -1,0 +1,47 @@
+name: Release extension zip
+
+# Automates what used to be a manual chain: build the zip
+# (scripts/package-extension.js), then hand-copy it into the website
+# repo's public/downloads/ and push there too. Instead, this attaches the
+# zip to a GitHub Release on every push to main that actually touches the
+# extension — the website's download button points straight at
+# .../releases/latest/download/draftgenius-extension.zip, so that link is
+# current the moment this workflow finishes, with no website deploy step
+# and no cross-repo credentials involved at all.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "extension/**"
+      - "scripts/package-extension.js"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Read manifest version
+        id: version
+        run: echo "version=$(node -p "require('./extension/manifest.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Build extension zip
+        run: node scripts/package-extension.js
+
+      # Tag includes the workflow run number (not just the manifest
+      # version) so a push that doesn't bump the version still creates a
+      # distinct, valid release instead of failing on a duplicate tag.
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}-${{ github.run_number }}
+          name: DraftGenius extension v${{ steps.version.outputs.version }}
+          files: dist/draftgenius-extension.zip
+          make_latest: true
